@@ -9,13 +9,13 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
  ## サービスエンドポイントと Private Link の比較
  　Private Link は、仮想ネットワーク内にプライベートエンドポイントという NAT サービスが配置され、その Private IP アドレスが NAT 変換され Azure PaaS へ接続する仕組みとなります。他方サービスエンドポイントは、仮想ネットワーク内から直接 Azure PaaS の Global IP を呼び出すことになります。Azure PaaS 側では自分が指定した仮想ネットワークのサブネットからしか着信を許可しないよう F/W が構成されます。
  
- メリット
-  - サービスエンドポイントは、[追加料金が不要](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview#pricing-and-limits)です。また NAT サービスなどが間に入らないので余計なオーバーヘッドも発生しません。
- - Private Link は、オンプレミスやピアリングされた他の仮想ネットワークなど、NAT サービスの Private IP アドレスにリーチできる場所であれば、どこからでも Azure PaaS へセキュアにアクセスする事が可能です。
+メリット
+- サービスエンドポイントは、[追加料金が不要](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview#pricing-and-limits)です。また NAT サービスなどが間に入らないので余計な通信オーバーヘッドも発生しません。
+- Private Link は、オンプレミスやピアリングされた他の仮想ネットワークなど、NAT サービスの Private IP にリーチできる場所であれば、どこからでも Azure PaaS へセキュアにアクセスする事が可能です。
  
- デメリット
-  - サービスエンドポイントは、仮想ネットワークの特定サブネットに対して設定します。このためマップされたサブネット（上の VM 等）からのみ Azure PaaS へのアクセスが可能です。このデメリットは Azure Fiewall と組み合わせサービスエンドポイントを AzureFirewallSubnet に対して設定する事で改善されます。
-  - Outgoing 方向の通信を自身の Azure PaaS インスタンスだけに絞るためには、サービスエンドポイントポリシーを利用する必要があります。
+デメリット
+- サービスエンドポイントは、仮想ネットワークの特定サブネットに対して設定します。このためマップされたサブネット（上の VM 等）からのみ Azure PaaS へのアクセスが可能です。このデメリットは Azure Fiewall と組み合わせサービスエンドポイントを AzureFirewallSubnet に対して設定する事で改善されます。
+- Outgoing 方向の通信を自身の Azure PaaS インスタンスだけに絞るためには、サービスエンドポイントポリシーを利用する必要があります。
   
  ## シナリオ１
  　[Data Factory セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-integration-runtime)を仮想マシンにインストールします。仮想マシンがデプロイされている仮想ネットワークのサブネットに対して Azure SQL Database と Azure Storage のサービスエンドポイントを設定します。Data Factory セルフホステッド統合ランタイムはセキュアに接続された 2 つのサービスエンドポイントを通してデータのやり取りが出来ます。
