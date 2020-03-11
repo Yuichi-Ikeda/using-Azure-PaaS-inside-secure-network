@@ -15,7 +15,7 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
  
 - デメリット
  - サービスエンドポイントは、仮想ネットワークの特定サブネットに対して設定します。このためマップされたサブネット（上の VM 等）からのみ Azure PaaS へのアクセスが可能です。このデメリットは Azure Fiewall と組み合わせサービスエンドポイントを AzureFirewallSubnet に対して設定する事で改善されます。
- - Outgoing 方向の通信を自身の Azure PaaS インスタンスだけに絞るためには、サービスエンドポイントポリシーを利用する必要があります。
+ - Outgoing 方向の通信を自身の Azure PaaS インスタンスだけに絞るためには、サービスエンドポイントポリシーを利用する必要があります
   
  ## シナリオ１
  　[Data Factory セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-integration-runtime)を仮想マシンにインストールします。仮想マシンがデプロイされている仮想ネットワークのサブネットに対して Azure SQL Database と Azure Storage のサービスエンドポイントを設定します。Data Factory セルフホステッド統合ランタイムはセキュアに接続された 2 つのサービスエンドポイントを通してデータのやり取りが出来ます。
