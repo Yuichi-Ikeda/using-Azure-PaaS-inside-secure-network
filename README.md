@@ -19,10 +19,11 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
 - 仮想ネットワーク内のプライベートエンドポイント (Private IP) と自身がデプロイした Azure PaaS インスタンスとの完全な 1 : 1 接続となります。
 
  ## ハンズオン - シナリオ１
- 　[Data Factory セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-integration-runtime)を仮想マシンにインストールします。仮想マシンがデプロイされている仮想ネットワークのサブネットに対して Azure SQL Database と Azure Storage のサービスエンドポイントを設定します。Data Factory セルフホステッド統合ランタイムはセキュアに接続された 2 つのサービスエンドポイントを通してデータのやり取りが出来ます。
-<img src="/images/シナリオ1.png" title="シナリオ1">
+ 　[Data Factory セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-integration-runtime)を仮想マシンにインストールします。仮想マシンがデプロイされている仮想ネットワークのサブネットに対して Azure SQL Database と Azure Storage のサービスエンドポイントを設定します。Data Factory セルフホステッド統合ランタイムはセキュアに接続された 2 つのサービスエンドポイントを通してデータのやり取りが出来ます。 
+<img src="/images/シナリオ1.png" title="ハンズオン - シナリオ１">
 
  ## ハンズオン - シナリオ２
- 　シナリオ１の仮想ネットワーク内に Azure Fiewall をデプロイします。Azure PaaS のサービスエンドポイントは AzureFirewallSubnet に対して設定します。Data Factory のコントロールプレーンを含め、全ての通信が Azure Fiewall 経由でセキュアに通信されるよう構成します。
-  
- 
+ 　シナリオ１の仮想ネットワーク内に Azure Fiewall をデプロイします。Azure PaaS のサービスエンドポイントは AzureFirewallSubnet に対して設定します。Data Factory のコントロールプレーンを含め、全ての通信が Azure Fiewall 経由でセキュアに通信されるよう構成します。 
+ <img src="/images/シナリオ2.png" title="ハンズオン - シナリオ２">
+
+続く
