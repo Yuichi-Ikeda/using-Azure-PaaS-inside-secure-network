@@ -12,12 +12,17 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
 **サービスエンドポイントの特徴**
 - [追加料金が不要](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview#pricing-and-limits)です。また NAT サービスなどが間に入らないので余計な通信オーバーヘッドも発生しません。
 - サービスエンドポイントは、仮想ネットワークの特定サブネットに対して設定します。このためマップされたサブネット（上の VM 等）からのみ Azure PaaS へのアクセスが可能です。このデメリットは Azure Fiewall と組み合わせサービスエンドポイントを AzureFirewallSubnet に対して設定する事で緩和されます。
-- Outgoing 方向の通信を自身の Azure PaaS インスタンスだけに絞るためには、[サービスエンドポイントポリシー](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoint-policies-portal)を利用する必要があります。
+- Outgoing 方向の通信を自身の Azure PaaS インスタンスだけに絞るには、[サービスエンドポイントポリシー](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoint-policies-portal)を利用する必要があります。
  
-**Private Linkの特徴**
+**Private Link の特徴**
 - Private Link は、オンプレミスやピアリングされた他の仮想ネットワークなど、NAT サービスの Private IP にリーチできる場所であれば、どこからでも Azure PaaS へセキュアにアクセスする事が可能です。
 - 仮想ネットワーク内のプライベートエンドポイント (Private IP) と自身がデプロイした Azure PaaS インスタンスとの完全な 1 : 1 接続となります。
 
  ## シナリオ１
  　[Data Factory セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-integration-runtime)を仮想マシンにインストールします。仮想マシンがデプロイされている仮想ネットワークのサブネットに対して Azure SQL Database と Azure Storage のサービスエンドポイントを設定します。Data Factory セルフホステッド統合ランタイムはセキュアに接続された 2 つのサービスエンドポイントを通してデータのやり取りが出来ます。
 <img src="/images/シナリオ1.png" title="シナリオ1">
+
+ ## シナリオ２
+ 　シナリオ１の仮想ネットワーク内に Azure Fiewall をデプロイします。Azure PaaS のサービスエンドポイントは AzureFirewallSubnet に対して設定します。Data Factory のコントロールプレーンを含め、全ての通信が Azure Fiewall 経由でセキュアに通信されるよう構成します。
+  
+ 
