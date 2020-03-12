@@ -12,7 +12,7 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
 **サービスエンドポイントの特徴**
 - [追加料金が不要](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview#pricing-and-limits)です。また NAT サービスなどが間に入らないので余計な通信オーバーヘッドも発生しません。
 - サービスエンドポイントは、仮想ネットワークの特定サブネットに対して設定します。このためマップされたサブネット（上の VM 等）からのみ Azure PaaS へのアクセスが可能です。このデメリットは Azure Fiewall と組み合わせサービスエンドポイントを AzureFirewallSubnet に対して設定する事で緩和されます。
-- Outgoing 方向の通信を自身の Azure PaaS インスタンスだけに絞るためには、サービスエンドポイントポリシーを利用する必要があります。
+- Outgoing 方向の通信を自身の Azure PaaS インスタンスだけに絞るためには、[サービスエンドポイントポリシー](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoint-policies-portal)を利用する必要があります。
  
 **Private Linkの特徴**
 - Private Link は、オンプレミスやピアリングされた他の仮想ネットワークなど、NAT サービスの Private IP にリーチできる場所であれば、どこからでも Azure PaaS へセキュアにアクセスする事が可能です。
