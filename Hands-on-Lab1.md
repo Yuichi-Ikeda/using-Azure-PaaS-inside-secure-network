@@ -8,11 +8,15 @@
    <img src="/images/hands-on-lab1-001.png" title="検索ボックスに「Windows Server」と入力">
 4. VM を作成する Windows Server バージョンは複数から選択できます。 \[Windows Server] イメージ概要パネルで \[ソフトウェア プランの選択] ドロップダウン リストをクリックして、\[\[smalldisk] Windows Server 2019 Datacenter] を探します。  
 
-   <img src="/images/hands-on-lab1-002.png" title=" Windows Server 2019 Datacenter">
+   <img src="/images/hands-on-lab1-002.png" title="Windows Server 2019 Datacenter">
 5. \[作成] ボタンをクリックして、VM の構成を始めます。
 
  ## VM 設定を構成する
  
 　ポータルでの VM 作成エクスペリエンスは "ウィザード" の形式で提示され、VM のすべての構成領域が順番に示されます。 [次へ] ボタンをクリックすると、次の構成可能なセクションに移動します。 しかし、上部に並んでいるタブで各セクションが示されており、自由にセクション間を移動できます。
 
-1. リソースグループを作成します。
+1. リソースグループ **DataFactory-Lab01-rg** を新規作成します。  
+
+   <img src="/images/hands-on-lab1-003.png" title="リソースグループを作成">
+2. 各種パラメータを設定します。VM サイズは Data Factory の最小構成前提要件をクリアするように DS3 v2 に変更します。  
+   <img src="/images/hands-on-lab1-004.png" title="各種パラメータを設定">
