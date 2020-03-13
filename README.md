@@ -31,6 +31,9 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
  # ハンズオン演習１
  
  ## 仮想ネットワークと仮想マシンのデプロイ
- 1. 仮想マシンをデプロイします。
+1. [Azure portal](https://portal.azure.com)  にサインインします。
+2. Azure portal のメニューまたは **\[ホーム]** ページから **\[リソースの作成]** を選択します。
+3. 検索ボックスに「Windows Server」と入力し、表示された一覧の中から同じタイトルのリンクをクリックします。
+
  
  ## Azure Storage のデプロイとサービスエンドポイントの設定
