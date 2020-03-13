@@ -6,11 +6,13 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
  
 　このハンズオン ワークショップでは[サービスエンドポイント](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview)を利用する事で Azure PaaS と仮想ネットワークを閉域に接続し、さらに Azure Firewall を組み込むことで、よりセキュアな閉域ネットワークでデータのやり取りをする構成を学びます。
 
- ## ハンズオン - シナリオ１
+　２つの演習を通して、[サービスエンドポイント](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview)、[ルートテーブル](https://docs.microsoft.com/ja-jp/azure/virtual-network/tutorial-create-route-table-portal)、[NSG](https://docs.microsoft.com/ja-jp/azure/virtual-network/security-overview)、[Azure Firewall](https://docs.microsoft.com/ja-jp/azure/firewall/overview) といったネットワーク周りのセキュリティ知識を深めていきます。
+ 
+ ## ハンズオン - 演習１
  　[Data Factory セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-integration-runtime)を仮想マシンにインストールします。仮想マシンがデプロイされている仮想ネットワークのサブネットに対して Azure SQL Database と Azure Storage のサービスエンドポイントを設定します。Data Factory セルフホステッド統合ランタイムはセキュアに接続された 2 つのサービスエンドポイントを通してデータのやり取りが出来ます。  
 　<img src="/images/シナリオ1.png" title="ハンズオン - シナリオ１">
 
- ## ハンズオン - シナリオ２
+ ## ハンズオン - 演習２
  　シナリオ１の仮想ネットワーク内に Azure Fiewall をデプロイします。Azure PaaS のサービスエンドポイントは AzureFirewallSubnet に対して設定します。Data Factory のコントロールプレーンを含め、全ての通信が Azure Fiewall 経由でセキュアに通信されるよう構成します。  
 　<img src="/images/シナリオ2.png" title="ハンズオン - シナリオ２">
 
