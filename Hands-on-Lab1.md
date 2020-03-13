@@ -9,7 +9,7 @@
 4. VM を作成する Windows Server バージョンは複数から選択できます。 \[Windows Server] イメージ概要パネルで \[ソフトウェア プランの選択] ドロップダウン リストをクリックして、\[Windows Server 2019 Datacenter] を探します。  
 
    <img src="/images/hands-on-lab1-002.png" title="Windows Server 2019 Datacenter">
-5. **\[作成]** ボタンをクリックして、VM の構成を始めます。
+5. \[作成] ボタンをクリックして、VM の構成を始めます。
 
  ## VM 設定を構成する
  
