@@ -16,8 +16,7 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
  　シナリオ１の仮想ネットワーク内に Azure Fiewall をデプロイします。Azure PaaS のサービスエンドポイントは AzureFirewallSubnet に対して設定します。Data Factory のコントロールプレーンを含め、全ての通信が Azure Fiewall 経由でセキュアに通信されるよう構成します。  
 　<img src="/images/シナリオ2.png" title="ハンズオン - シナリオ２">
 
-```
- ## サービスエンドポイントと Private Link の比較
+ ## 予備知識：サービスエンドポイントと Private Link の比較
  　サービスエンドポイントは、仮想ネットワーク内から直接 Azure PaaS の Global IP を呼び出します。Azure PaaS 側では自分が指定した仮想ネットワークのサブネットからしか着信を許可しないよう F/W が構成されます。他方[Private Link](https://docs.microsoft.com/ja-jp/azure/private-link/) は、仮想ネットワーク内にプライベートエンドポイントという NAT サービスが配置され、その Private IP アドレスが NAT 変換され Azure PaaS へ接続する仕組みとなります。
  
 **サービスエンドポイントの特徴**
@@ -28,7 +27,6 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
 **Private Link の特徴**
 - Private Link は、オンプレミスやピアリングされた他の仮想ネットワークなど、NAT サービスの Private IP にリーチできる場所であれば、どこからでも Azure PaaS へセキュアにアクセスする事が可能です。
 - 仮想ネットワーク内のプライベートエンドポイント (Private IP) と自身がデプロイした Azure PaaS インスタンスとの完全な 1 : 1 接続となります。
-```
 
  ## ハンズオン演習１
  
