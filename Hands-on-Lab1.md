@@ -18,5 +18,5 @@
 1. リソースグループ **DataFactory-Lab01-rg** を新規作成します。  
 
    <img src="/images/hands-on-lab1-003.png" title="リソースグループを作成">
-2. 必須項目 <font color="Red">\*</font> の各種パラメータを以下のように設定します。VM サイズは [Data Factory 前提要件](https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#prerequisites)の最小構成をクリアするように **D4s v3** に変更します。  
+2. 必須項目 <span style="color: red; ">*</span> の各種パラメータを以下のように設定します。VM サイズは [Data Factory 前提要件](https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#prerequisites)の最小構成をクリアするように **D4s v3** に変更します。  
    <img src="/images/hands-on-lab1-004.png" title="各種パラメータを設定">
