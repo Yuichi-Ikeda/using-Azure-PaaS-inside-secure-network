@@ -9,7 +9,7 @@
 4. VM を作成する Windows Server バージョンは複数から選択できます。 \[Windows Server] イメージ概要パネルで \[ソフトウェア プランの選択] ドロップダウン リストをクリックして、\[Windows Server 2019 Datacenter] を探します。  
 
    <img src="/images/hands-on-lab1-002.png" title="Windows Server 2019 Datacenter">
-5. \[作成] ボタンをクリックして、VM の構成を始めます。
+5. **\[作成]** ボタンをクリックして、VM の構成を始めます。
 
  ## VM 設定を構成する
  
@@ -20,5 +20,5 @@
    <img src="/images/hands-on-lab1-003.png" title="リソースグループを作成">
 2. 必須項目 **\*** の各種パラメータを以下のように設定します。VM サイズは [Data Factory 前提要件](https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#prerequisites)の最小構成をクリアするように **D4s v3** に変更します。  
    <img src="/images/hands-on-lab1-004.png" title="各種パラメータを設定">
-3. その他のパラメーターは既定値のまま \[次: ディスク > ] 行きます。 
-4. ディスク項目も既定値のまま \[次: ネットワーク > ] 行きます。 
+3. その他のパラメーターは既定値のまま **\[ 次: ディスク > ]** へ行きます。 
+4. ディスク項目も既定値のまま **\[ 次: ネットワーク > ]** へ行きます。 
