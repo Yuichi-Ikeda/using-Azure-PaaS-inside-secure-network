@@ -28,7 +28,9 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
 - Private Link は、オンプレミスやピアリングされた他の仮想ネットワークなど、NAT サービスの Private IP にリーチできる場所であれば、どこからでも Azure PaaS へセキュアにアクセスする事が可能です。
 - 仮想ネットワーク内のプライベートエンドポイント (Private IP) と自身がデプロイした Azure PaaS インスタンスとの完全な 1 : 1 接続となります。
 
- ## ハンズオン演習１
+ # ハンズオン演習１
  
+ ## 仮想ネットワークと仮想マシンのデプロイ
  1. 仮想マシンをデプロイします。
  
+ ## Azure Storage のデプロイとサービスエンドポイントの設定
