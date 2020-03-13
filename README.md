@@ -6,7 +6,7 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
  
 　このワークショップでは[サービスエンドポイント](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview)を利用する事で Azure PaaS と仮想ネットワークを閉域に接続し、更に [Azure Firewall](https://docs.microsoft.com/ja-jp/azure/firewall/overview) を組み込むことで、よりセキュアな閉域ネットワークでデータのやり取りをする構成を学びます。
  
- 　次に示す２つの演習を通して、サービスエンドポイント、[ルートテーブル](https://docs.microsoft.com/ja-jp/azure/virtual-network/tutorial-create-route-table-portal)、[NSG](https://docs.microsoft.com/ja-jp/azure/virtual-network/security-overview)、Azure Firewall といったネットワーク周りのセキュリティ知識を深めていきます。
+ 　次に示す２つの演習を通して、サービスエンドポイント、[ルートテーブル](https://docs.microsoft.com/ja-jp/azure/virtual-network/tutorial-create-route-table-portal)、[NSG](https://docs.microsoft.com/ja-jp/azure/virtual-network/security-overview)、Azure Firewall といった Azure のネットワーク周りのセキュリティ知識を深めていきます。
  
  ## ハンズオン - 演習１
  　[Data Factory セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-integration-runtime)を仮想マシンにインストールします。仮想マシンがデプロイされている仮想ネットワークのサブネットに対して Azure SQL Database と Azure Storage のサービスエンドポイントを設定します。Data Factory セルフホステッド統合ランタイムはセキュアに接続された 2 つのサービスエンドポイントを通してデータのやり取りが出来ます。  
