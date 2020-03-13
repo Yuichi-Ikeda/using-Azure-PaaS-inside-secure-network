@@ -8,14 +8,13 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
  
  　次に示す２つの演習を通して、サービスエンドポイント、[ルートテーブル](https://docs.microsoft.com/ja-jp/azure/virtual-network/tutorial-create-route-table-portal)、[NSG](https://docs.microsoft.com/ja-jp/azure/virtual-network/security-overview)、Azure Firewall といった Azure のネットワーク周りのセキュリティ知識を深めていきます。
  
- ## ハンズオン - 演習１
- 　[Data Factory セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-integration-runtime)を仮想マシンにインストールします。仮想マシンがデプロイされている仮想ネットワークのサブネットに対して Azure SQL Database と Azure Storage のサービスエンドポイントを設定します。Data Factory セルフホステッド統合ランタイムはセキュアに接続された 2 つのサービスエンドポイントを通してデータのやり取りが出来ます。  
+ ## ハンズオン演習１ - 概要
+ 　[Data Factory セルフホステッド統合ランタイム](https://docs.microsoft.com/ja-jp/azure/data-factory/concepts-integration-runtime)を仮想マシンにインストールします。仮想マシンがデプロイされている仮想ネットワークのサブネットに対して Azure SQL Database と Azure Storage のサービスエンドポイントを設定します。この構成では Data Factory セルフホステッド統合ランタイムはセキュアに接続された 2 つのサービスエンドポイントを通してデータのやり取りが出来ます。  
 　<img src="/images/シナリオ1.png" title="ハンズオン - シナリオ１">
 
- ## ハンズオン - 演習２
+ ## ハンズオン演習２ - 概要
  　シナリオ１の仮想ネットワーク内に Azure Fiewall をデプロイします。Azure PaaS のサービスエンドポイントは AzureFirewallSubnet に対して設定します。Data Factory のコントロールプレーンを含め、全ての通信が Azure Fiewall 経由でセキュアに通信されるよう構成します。  
 　<img src="/images/シナリオ2.png" title="ハンズオン - シナリオ２">
-
 
  ## サービスエンドポイントと Private Link の比較
  　サービスエンドポイントは、仮想ネットワーク内から直接 Azure PaaS の Global IP を呼び出します。Azure PaaS 側では自分が指定した仮想ネットワークのサブネットからしか着信を許可しないよう F/W が構成されます。他方[Private Link](https://docs.microsoft.com/ja-jp/azure/private-link/) は、仮想ネットワーク内にプライベートエンドポイントという NAT サービスが配置され、その Private IP アドレスが NAT 変換され Azure PaaS へ接続する仕組みとなります。
@@ -28,3 +27,8 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
 **Private Link の特徴**
 - Private Link は、オンプレミスやピアリングされた他の仮想ネットワークなど、NAT サービスの Private IP にリーチできる場所であれば、どこからでも Azure PaaS へセキュアにアクセスする事が可能です。
 - 仮想ネットワーク内のプライベートエンドポイント (Private IP) と自身がデプロイした Azure PaaS インスタンスとの完全な 1 : 1 接続となります。
+
+ ## ハンズオン演習１
+ 
+ 1. 仮想マシンをデプロイします。
+ 
