@@ -34,11 +34,15 @@
 
  ## Azure Data Factory のデプロイ
 1. Azure portal メニューから **\[リソースの作成]** を選択します。
+
    <img src="/images/hands-on-lab1-006.png" title="リソースの作成">
 2. **\[分析]** を選択してから、 **\[Data Factory]** を選択します。
+
    <img src="/images/hands-on-lab1-007.png" title="Data Factoryの作成">
-3. **\[新しいデータ ファクトリ]** ページで、 **\[名前]** に「**<yourname>-WorkshopDataFactory**」と入力します。
+3. **\[新しいデータ ファクトリ]** ページで、 **\[名前]** に「**\<yourname>-WorkshopDataFactory**」と入力します。
+
 4. **\[サブスクリプション]** で、データ ファクトリを作成する Azure サブスクリプションを選択します。
+
 5. **\[リソース グループ]** で、**\[既存のものを使用]** を選択し、一覧から「**DataFactory-Lab01-rg**」を選択します。
 
  ## Data Factory セルフホステッド統合ランタイムのインストール
