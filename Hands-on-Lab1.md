@@ -36,12 +36,14 @@
  
 1. リモートデスクトップで仮想マシンにログインします。
    <img src="/images/hands-on-lab1-006.png" title="リモートデスクトップ">
-2. 次のドキュメントの手順に従い、Microsoft ダウンロード センターからセルフホステッド IR をインストールして登録します。
+2. IE Enhanced Security Configuration を OFF にします。この後の作業に際し、Edge や Chrome をダウンロードする事を推奨します。
+   <img src="/images/hands-on-lab1-007.png" title="IE Enhanced Security Configuration を OFF">
+3. 次のドキュメントの手順に従い、Microsoft ダウンロード センターからセルフホステッド IR をインストールして登録します。
    
    https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#install-and-register-a-self-hosted-ir-from-microsoft-download-center
    
-3. 注意点は以下です。
+4. 注意点は以下です。
 
-4. テスト
+5. テスト
 
 
