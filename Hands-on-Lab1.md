@@ -27,9 +27,11 @@
 2. Data Factory のポータルサイトで、左端のペインの **\[鉛筆アイコン]** を選択し、下部にある **\[Connections]** を選択します。右ウィンドウで **\[Integration Runtimes]** を選択し、 **\[+ New]** を選択します。
 
    <img src="/images/hands-on-lab1-ADFConfig-002.png" title="Integration Runtimes の作成">
-3. **\[Azure, Self-Hosted]** を選択し、 **\[Continue]** を選択します。
+3. 表示されたポップアップウィンドウで **\[Azure, Self-Hosted]** を選択し、 **\[Continue]** を選択します。
 
-4. xxxxx
+4. 続けて **\[Self-Hosted]** を選択し、 **\[Continue]** を選択します。
+
+5. 名前を既定値の **integrationRuntime1** のまま **\[Create]** を選択します。
 
 
  ## 仮想マシンのデプロイ
