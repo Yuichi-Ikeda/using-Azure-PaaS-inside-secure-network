@@ -20,6 +20,18 @@
 
 9. その他は既定値のまま **作成** を選択します。
 
+ ## Azure Data Factory を構成する
+1. **\[概要]** を選択して、 **\[作成と監視]** を選択します。
+
+   <img src="/images/hands-on-lab1-ADFConfig-001.png" title="作成と監視">
+2. Data Factory のポータルサイトで、左端のペインの **\[鉛筆アイコン]** を選択し、下部にある **\[Connections]** を選択します。右ウィンドウで **\[Integration Runtimes]** を選択し、 **\[+ New]** を選択します。
+
+   <img src="/images/hands-on-lab1-ADFConfig-002.png" title="Integration Runtimes の作成">
+3. **\[Azure, Self-Hosted]** を選択し、 **\[Continue]** を選択します。
+
+4. xxxxx
+
+
  ## 仮想マシンのデプロイ
 1. Azure portal の左上メニューまたはホームページから **\[リソースの作成]** を選択します。
 2. 検索ボックスに「Windows Server」と入力し、表示された一覧の中から同じタイトルのリンクをクリックします。  
