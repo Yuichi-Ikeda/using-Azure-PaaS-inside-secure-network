@@ -40,7 +40,7 @@
 2. 必須項目 **\*** の各種パラメータを以下のように設定します。VM サイズは [Data Factory 前提要件](https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#prerequisites)の最小構成をクリアするように **D4s v3** に変更します。  
    <img src="/images/hands-on-lab1-VM-004.png" title="各種パラメータを設定">
 3. その他のパラメーターは既定値のまま **\[ 次: ディスク > ]** へ行きます。 
-4. ディスク項目も既定値のまま **\[ 次: ネットワーク > ]** へ行き、仮想ネットワークの **\[ 新規作成 ]** をクリックし、以下のようなアドレス空間とサブネットに構成します。
+4. ディスク項目も既定値のまま **\[ 次: ネットワーク > ]** へ行き、仮想ネットワークの **\[ 新規作成 ]** をクリックし、以下のアドレス空間とサブネットに構成します。
 
    <img src="/images/hands-on-lab1-VM-005.png" title="ネットワーク設定">
    
