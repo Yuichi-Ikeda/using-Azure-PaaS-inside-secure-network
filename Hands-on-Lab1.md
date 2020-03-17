@@ -81,5 +81,7 @@
 
    <img src="/images/hands-on-lab1-VMConfig-003.png" title="Self-Hosted Runtime の登録">
 
+5. あとは既定値のまま進み **\[Launch Configuration Manager]** で正常に Self-hosted node が cloud serrvice に接続されている事を確認します。
 
+   <img src="/images/hands-on-lab1-VMConfig-004.png" title="Self-Hosted Runtime の稼働確認">
 
