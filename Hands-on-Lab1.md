@@ -77,7 +77,7 @@
    
    https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#install-and-register-a-self-hosted-ir-from-microsoft-download-center
    
-4. 最後に**Azure Data Factory を構成**した際に控えておいた Key1 を入力して Self-Hosted Runtime の**登録**を完了します。
+4. **Azure Data Factory を構成**した際に控えておいた Key1 を入力して Self-Hosted Runtime の**登録**を完了します。
 
    <img src="/images/hands-on-lab1-VMConfig-003.png" title="Self-Hosted Runtime の登録">
 
