@@ -35,4 +35,9 @@
  ## Data Factory セルフホステッド統合ランタイムのインストール
  
 1. リモートデスクトップで仮想マシンにログインします。
-2. 
+2. 次のドキュメントの手順に従い、セルフホステッド IR をインストールして登録します。
+
+   Microsoft ダウンロード センターからセルフホステッド IR をインストールして登録する
+   https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#install-and-register-a-self-hosted-ir-from-microsoft-download-center
+
+3．注意点は以下です。
