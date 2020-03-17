@@ -40,7 +40,7 @@
    
    https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#install-and-register-a-self-hosted-ir-from-microsoft-download-center
    
- 3．注意点は以下です。
+  3．注意点は以下です。
 
 4. テスト
 
