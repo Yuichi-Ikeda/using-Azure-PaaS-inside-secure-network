@@ -129,6 +129,6 @@ https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-
 
    <img src="/images/hands-on-lab1-Storage-003.png" title="ストレージアカウント 基本設定">
 
-　これにより、ストレージアカウントは選択した仮想ネットワークのサブネットからのみ通信を受け入れるように Firewall が構成されます。
+　※ これにより、ストレージアカウントは**選択した仮想ネットワークのサブネットからのみ通信を受け入れる**ように Firewall が構成されます。
  
 13. **\[ 確認および作成 ]** をクリックし、検証に成功したら、そのまま **\[ 作成 ]** をします。
