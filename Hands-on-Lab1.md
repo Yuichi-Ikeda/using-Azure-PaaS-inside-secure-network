@@ -85,19 +85,19 @@
 
    <img src="/images/hands-on-lab1-VMConfig-004.png" title="Self-Hosted Runtime の稼働確認">
 
- ## SQL Server Management Studio (SSMS) のインストール
-
-サービスエンドポイント経由で Azure SQL Database への接続確認のために、SQL Server Management Studio (SSMS) をインストールします。
- 
-SQL Server Management Studio (SSMS) のダウンロード  
-https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms
-
  ## Azure Storage Explorer のインストール
 
 サービスエンドポイント経由で Azure Storage への接続確認のために、Azure Storage Explorer をインストールします。
 
 Azure Storage Explorer のダウンロード  
 https://azure.microsoft.com/ja-jp/features/storage-explorer/
+
+ ## SQL Server Management Studio (SSMS) のインストール
+
+サービスエンドポイント経由で Azure SQL Database への接続確認のために、SQL Server Management Studio (SSMS) をインストールします。
+ 
+SQL Server Management Studio (SSMS) のダウンロード  
+https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms
 
 # Azure Storage のデプロイ
 1. [Azure portal](https://portal.azure.com)  にサインインします。
