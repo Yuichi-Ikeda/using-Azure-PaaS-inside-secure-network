@@ -116,6 +116,7 @@ https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-
 7. **\[場所]** で、データ ファクトリの場所 **(Asia Pacific) 東南アジア** を選択します。
 
 8. **\[レプリケーション]** で、**ローカル冗長ストレージ (LRS)** を選択します。
+
    <img src="/images/hands-on-lab1-Storage-002.png" title="ストレージアカウント 基本設定">
    
 9. その他は既定値のまま **\[ 次: ネットワーク > ]** へ行きます。
