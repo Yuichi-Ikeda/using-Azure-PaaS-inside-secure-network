@@ -99,3 +99,6 @@ https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-
 Azure Storage Explorer のダウンロード  
 https://azure.microsoft.com/ja-jp/features/storage-explorer/
 
+# Azure Storage のデプロイ
+
+1. 
