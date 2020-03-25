@@ -100,5 +100,10 @@ Azure Storage Explorer のダウンロード
 https://azure.microsoft.com/ja-jp/features/storage-explorer/
 
 # Azure Storage のデプロイ
+1. [Azure portal](https://portal.azure.com)  にサインインします。
+2. Azure portal の左上メニューまたはホームページから **\[リソースの作成]** を選択します。
 
-1. 
+   <img src="/images/hands-on-lab1-ADF-001.png" title="リソースの作成">
+3. **\[ストレージ]** を選択してから、 **\[ストレージアカウント]** を選択します。
+
+   <img src="/images/hands-on-lab1-Storage-001.png" title="ストレージアカウントの作成">
