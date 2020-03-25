@@ -127,7 +127,7 @@ https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-
 
 12. **\[サブネット]** で、**ADFSubnet** を選択します。
 
-   <img src="/images/hands-on-lab1-Storage-002.png" title="ストレージアカウント 基本設定">
+   <img src="/images/hands-on-lab1-Storage-003.png" title="ストレージアカウント 基本設定">
 
 　これにより、ストレージアカウントは選択した仮想ネットワークのサブネットからのみ通信を受け入れるように Firewall が構成されます。
  
