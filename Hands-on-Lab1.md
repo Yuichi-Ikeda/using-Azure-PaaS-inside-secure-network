@@ -135,16 +135,16 @@
    
 3. Azure Storage Explorer のインストール
 
-サービスエンドポイント経由で Azure Storage への接続確認のために、Azure Storage Explorer をインストールします。
+   サービスエンドポイント経由で Azure Storage への接続確認のために、Azure Storage Explorer をインストールします。
 
-Azure Storage Explorer のダウンロード  
-https://azure.microsoft.com/ja-jp/features/storage-explorer/
+   Azure Storage Explorer のダウンロード  
+   https://azure.microsoft.com/ja-jp/features/storage-explorer/
 
 4. SQL Server Management Studio (SSMS) のインストール
 
-サービスエンドポイント経由で Azure SQL Database への接続確認のために、SQL Server Management Studio (SSMS) をインストールします。
+   サービスエンドポイント経由で Azure SQL Database への接続確認のために、SQL Server Management Studio (SSMS) をインストールします。
  
-SQL Server Management Studio (SSMS) のダウンロード  
-https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms
+   SQL Server Management Studio (SSMS) のダウンロード  
+   https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms
 
 ## 接続確認
