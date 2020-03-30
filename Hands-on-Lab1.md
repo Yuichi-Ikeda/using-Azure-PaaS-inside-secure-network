@@ -133,14 +133,14 @@
 2. IE Enhanced Security Configuration を Off にします。この後の作業に際し **Edge や Chrome をダウンロード**しておく事を推奨します。
    <img src="/images/hands-on-lab1-VMConfig-002.png" title="IE Enhanced Security Configuration を OFF">
    
- ### Azure Storage Explorer のインストール
+3. Azure Storage Explorer のインストール
 
 サービスエンドポイント経由で Azure Storage への接続確認のために、Azure Storage Explorer をインストールします。
 
 Azure Storage Explorer のダウンロード  
 https://azure.microsoft.com/ja-jp/features/storage-explorer/
 
- ### SQL Server Management Studio (SSMS) のインストール
+4. SQL Server Management Studio (SSMS) のインストール
 
 サービスエンドポイント経由で Azure SQL Database への接続確認のために、SQL Server Management Studio (SSMS) をインストールします。
  
