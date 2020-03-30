@@ -87,20 +87,34 @@
 
 9. **\[場所]** で、データ ファクトリの場所 **(Asia Pacific) 東南アジア** を選択します。
 
-   <img src="/images/hands-on-lab1-SQLDatabase-002.png" title="ストレージアカウント 基本設定"> 
+   <img src="/images/hands-on-lab1-SQLDatabase-002.png" title="SQLDatabase 基本設定"> 
 10. その他は既定値のまま **\[ 次: ネットワーク > ]** へ行きます。
 
 11. **\[接続方法]** で、 **\[アクセスなし]** を選択します。サービスエンドポイントの構成は後で実施します。
 
-   <img src="/images/hands-on-lab1-SQLDatabase-003.png" title="ストレージアカウント 基本設定">
+   <img src="/images/hands-on-lab1-SQLDatabase-003.png" title="SQLDatabase ネットワーク設定">
 
 12. その他は既定値のまま **\[ 次: 追加設定 > ]** へ行きます。
 
 13. **\[既存のデータを使用します]** で、 **\[サンプル]** を選択します。
 
-   <img src="/images/hands-on-lab1-SQLDatabase-004.png" title="ストレージアカウント 基本設定">
+   <img src="/images/hands-on-lab1-SQLDatabase-004.png" title="SQLDatabase 追加設定">
 
 14. **\[ 確認および作成 ]** をクリックし、検証に成功したら、そのまま **\[ 作成 ]** をします。
 
 ### SQL Database サービスエンドポイント設定を構成する
+1. デプロイ完了後の通知メニューより **\[リソースに移動]** を選択します。
 
+   <img src="/images/hands-on-lab1-SQLConfig-001.png" title="リソースに移動">
+2. **\[概要]** を選択して、 **\[サーバー ファイアウォールの設定]** を選択します。
+
+   <img src="/images/hands-on-lab1-SQLConfig-002.png" title="サーバー ファイアウォールの設定">
+3. **\[既存の仮想ネットワーク追加]** を選択します。
+
+   <img src="/images/hands-on-lab1-SQLConfig-003.png" title="既存の仮想ネットワーク追加">
+   
+4. 仮想マシンのデプロイ時に作成した **\[既存の仮想ネットワーク]** と **\[サブネット名]** を選択します。
+
+   <img src="/images/hands-on-lab1-SQLConfig-004.png" title="既存の仮想ネットワーク追加">
+
+5. **\[有効]** を押して、続けて **\[OK]** を押します。サーバーの VNET ルールが更新されます。
