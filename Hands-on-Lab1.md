@@ -123,26 +123,16 @@
 
    <img src="/images/hands-on-lab1-SQLConfig-005.png" title="サービスエンドポイント確認">
 
- ## 仮想マシンへのクライアントツールのインストール
- 
+## 仮想マシンへのクライアントツールのインストール
+
+　ここで仮想マシンからサービスエンドポイント経由で Azure Storage と Azure SQL Database へのアクセス確認をする為に、クライアントとツールをインストールします。
+
 1. リモートデスクトップで仮想マシンにログインします。
    <img src="/images/hands-on-lab1-VMConfig-001.png" title="リモートデスクトップ">
    
 2. IE Enhanced Security Configuration を Off にします。この後の作業に際し **Edge や Chrome をダウンロード**しておく事を推奨します。
    <img src="/images/hands-on-lab1-VMConfig-002.png" title="IE Enhanced Security Configuration を OFF">
    
-3. 次のドキュメントの手順に従い、Microsoft ダウンロード センターからセルフホステッド IR をインストールして登録します。**言語は全て English (United States)** で実行します。
-   
-   https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#install-and-register-a-self-hosted-ir-from-microsoft-download-center
-   
-4. **Azure Data Factory を構成**した際に控えておいた Key1 を入力して Self-Hosted Runtime の**登録**を完了します。
-
-   <img src="/images/hands-on-lab1-VMConfig-003.png" title="Self-Hosted Runtime の登録">
-
-5. あとは既定値のまま進み **\[Launch Configuration Manager]** で正常に Self-hosted node が cloud serrvice に接続されている事を確認します。
-
-   <img src="/images/hands-on-lab1-VMConfig-004.png" title="Self-Hosted Runtime の稼働確認">
-
  ### Azure Storage Explorer のインストール
 
 サービスエンドポイント経由で Azure Storage への接続確認のために、Azure Storage Explorer をインストールします。
@@ -157,4 +147,4 @@ https://azure.microsoft.com/ja-jp/features/storage-explorer/
 SQL Server Management Studio (SSMS) のダウンロード  
 https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms
 
-
+## 接続確認
