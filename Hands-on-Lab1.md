@@ -148,3 +148,13 @@
    https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms
 
 ## 接続確認
+
+1. Azure Storage Explorer を起動し、接続ダイアログで **Add an Azure Account** を選択します。
+   <img src="/images/hands-on-lab1-AzureStorageExplorer-001.png" title="Add an Azure Account">
+   
+2. Azure にログインするための認証情報を入力し、サブスクリプションを選択します。
+
+3. 左側のツリービューで、該当するストレージアカウントを展開します。
+   <img src="/images/hands-on-lab1-AzureStorageExplorer-002.png" title="該当するストレージアカウントを展開します">
+
+4. 右クリックメニューの **Create Blob Container** で Blob への書き込みが可能な事を確認します。
