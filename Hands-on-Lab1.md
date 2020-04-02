@@ -1,6 +1,6 @@
 # 演習１ - Data Factory セルフホステッド統合ランタイムとサービスエンドポイント
 
-## 仮想マシンのデプロイ
+# 仮想マシンのデプロイ
 1. [Azure portal](https://portal.azure.com)  にサインインします。
 2. Azure portal の左上メニューまたはホームページから **\[リソースの作成]** を選択します。
 
@@ -13,7 +13,7 @@
    <img src="/images/hands-on-lab1-VM-002.png" title="Windows Server 2019 Datacenter">
 5. \[作成] ボタンをクリックして、VM の構成を始めます。
 
-### VM 設定を構成する
+## VM 設定を構成する
  
 　ポータルでの VM 作成エクスペリエンスは "ウィザード" の形式で提示され、VM のすべての構成領域が順番に示されます。 [次へ] ボタンをクリックすると、次の構成可能なセクションに移動します。 上部に並んでいるタブで各セクションが示されており、自由にセクション間を移動できます。
 
@@ -33,7 +33,7 @@
 
    デプロイ作業が開始され、数分後に仮想マシンのデプロイが完了します。
 
-## Azure Storage のデプロイ
+# Azure Storage のデプロイ
 1. Azure portal の左上メニューまたはホームページから **\[リソースの作成]** を選択します。
 
    <img src="/images/hands-on-lab1-ADF-001.png" title="リソースの作成">
@@ -66,7 +66,7 @@
  
 12. **\[ 確認および作成 ]** をクリックし、検証に成功したら、そのまま **\[ 作成 ]** をします。
 
-## Azure SQL Database のデプロイ
+# Azure SQL Database のデプロイ
 1. Azure portal の左上メニューまたはホームページから **\[リソースの作成]** を選択します。
 
    <img src="/images/hands-on-lab1-ADF-001.png" title="リソースの作成">
@@ -102,7 +102,7 @@
 
 14. **\[ 確認および作成 ]** をクリックし、検証に成功したら、そのまま **\[ 作成 ]** をします。
 
-### SQL Database サービスエンドポイント設定を構成する
+## SQL Database サービスエンドポイント設定を構成する
 1. デプロイ完了後の通知メニューより **\[リソースに移動]** を選択します。
 
    <img src="/images/hands-on-lab1-SQLConfig-001.png" title="リソースに移動">
@@ -123,7 +123,7 @@
 
    <img src="/images/hands-on-lab1-SQLConfig-005.png" title="サービスエンドポイント確認">
 
-## 仮想マシンへのクライアントツールのインストール
+# 仮想マシンへのクライアントツールのインストール
 
 　ここで仮想マシンからサービスエンドポイント経由で Azure Storage と Azure SQL Database へのアクセス確認をする為に、クライアントとツールをインストールします。
 
@@ -147,7 +147,7 @@
    **SQL Server Management Studio (SSMS) のダウンロード**  
    https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms
 
-## Azure Storage への接続確認
+# Azure Storage への接続確認
 
 1. Azure Storage Explorer を起動し、接続ダイアログで **Add an Azure Account** を選択します。
 
@@ -161,7 +161,7 @@
 
 4. 右クリックメニューの **Create Blob Container** で Blob への書き込みが可能な事を確認します。
 
-## Azure SQL Database への接続確認
+# Azure SQL Database への接続確認
 
 1. SQL Server Management Studio (SSMS) を起動し、接続情報に **Azure SQL Database のデプロイ - 手順 9** で入力したサーバー名、ユーザー名、パスワードを使用して接続します。この時、SQL Server Authentication を選択します。
 
