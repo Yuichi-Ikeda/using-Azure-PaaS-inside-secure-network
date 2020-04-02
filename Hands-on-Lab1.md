@@ -150,11 +150,13 @@
 ## Azure Storage への接続確認
 
 1. Azure Storage Explorer を起動し、接続ダイアログで **Add an Azure Account** を選択します。
+
    <img src="/images/hands-on-lab1-AzureStorageExplorer-001.png" title="Add an Azure Account">
    
 2. Azure にログインするための認証情報を入力し、サブスクリプションを選択します。
 
 3. 左側のツリービューで、該当するストレージアカウントを展開します。
+
    <img src="/images/hands-on-lab1-AzureStorageExplorer-002.png" title="該当するストレージアカウントを展開します">
 
 4. 右クリックメニューの **Create Blob Container** で Blob への書き込みが可能な事を確認します。
@@ -162,11 +164,13 @@
 ## Azure SQL Database への接続確認
 
 1. SQL Server Management Studio (SSMS) を起動し、接続情報に **Azure SQL Database のデプロイ - 手順 9** で入力したサーバー名、ユーザー名、パスワードを使用して接続します。この時、SQL Server Authentication を選択します。
+
    <img src="/images/hands-on-lab1-SSMS-001.png" title="SQL Database への接続">
    
-2. Azure にログインするための認証情報を入力し、サブスクリプションを選択します。
+2. 左側のツリービューで、データベースとテーブルを展開し、テーブルの内容が参照(Select) 出来ることを確認します。
 
-3. 左側のツリービューで、該当するストレージアカウントを展開します。
-   <img src="/images/hands-on-lab1-AzureStorageExplorer-002.png" title="該当するストレージアカウントを展開します">
+   <img src="/images/hands-on-lab1-SSMS-002.png" title="テーブルの内容を参照">
 
-4. 右クリックメニューの **Create Blob Container** で Blob への書き込みが可能な事を確認します。
+# ファイアウォール (MSG) にてインターネットへのアクセスを制限
+
+　
