@@ -183,11 +183,11 @@
    
 2. 送信セキュリティに対して、以下のように、より高い優先度（少ない番号）でインターネットへの送信を拒否します。
 
-   <img src="/images/hands-on-lab1-NSG-001.png" title="NSG の既定値">
+   <img src="/images/hands-on-lab1-NSG-002.png" title="インターネットへの送信を拒否">
    
 3. 適用が完了すると、次のような構成状態となります。
 
-   <img src="/images/hands-on-lab1-NSG-001.png" title="NSG の既定値">
+   <img src="/images/hands-on-lab1-NSG-003.png" title="インターネットへの送信を拒否">
 
    ※ この状態では、仮想マシンから一切のインターネットアクセスが拒否されるためサービスエンドポイントの先にある Azure Storage や Azure SQL Database にもアクセスが出来ない状況となっています。
    
