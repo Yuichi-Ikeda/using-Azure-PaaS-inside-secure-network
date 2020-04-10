@@ -217,4 +217,4 @@
  
     <img src="/images/hands-on-lab1-Service-endpoint-policy-002.png" title="Service endpoint policy">
 
-4. [リソース] の下にある [+ 追加] を選択し [リソースの追加] ウィンドウで次の情報を入力または選択します。
+4. \[リソース] の下にある \[+ 追加] を選択し \[リソースの追加] ウィンドウで次の情報を入力または選択します。
