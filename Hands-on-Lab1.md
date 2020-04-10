@@ -213,7 +213,7 @@
 
  2. 検索ウィンドウに「Service endpoint policy」と入力し、 \[Service endpoint policy] 、 \[作成] の順に選択します。
 
-   <img src="/images/hands-on-lab1-Service-endpoint-policy-001.png" title="Service endpoint policy">
+    <img src="/images/hands-on-lab1-Service-endpoint-policy-001.png" title="Service endpoint policy">
    
  3. **\[基本]** に次の情報を入力するか選択します。 **\[ 次: ポリシー定義 > ]** へ進みます。
  
