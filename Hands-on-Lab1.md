@@ -225,4 +225,8 @@
 
     <img src="/images/hands-on-lab1-Service-endpoint-policy-004.png" title="確認および作成">
     
-    
+ 6. 作成されたリソースに移動し、ポリシーに仮想ネットワークのサブネットを関連付けます。
+ 
+   <img src="/images/hands-on-lab1-Service-endpoint-policy-005.png" title="サブネットを関連付け">
+
+　以上で、サービスエンドポイントが接続されたサブネットで、該当する Azure Storage にのみアクセスが制限されるようポリシーが適用されました。
