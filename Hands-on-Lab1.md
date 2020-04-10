@@ -207,4 +207,14 @@
  
    <img src="/images/vnet-service-endpoint-policies-overview.png" title="サービスエンドポイントポリシー">
 
-あああ
+ 1. Azure Portal の左上隅にある [+ リソースの作成] を選択します。
+
+ 2. 検索ウィンドウに「Service endpoint policy」と入力し、 \[Service endpoint policy] 、 \[作成] の順に選択します。
+
+   <img src="/images/hands-on-lab1-Service-endpoint-policy-001.png" title="Service endpoint policy">
+   
+ 3. \[基本] に次の情報を入力するか、選択します。
+ 
+    <img src="/images/hands-on-lab1-Service-endpoint-policy-002.png" title="Service endpoint policy">
+
+4. [リソース] の下にある [+ 追加] を選択し [リソースの追加] ウィンドウで次の情報を入力または選択します。
