@@ -204,10 +204,9 @@
 ## 仮想ネットワーク側から特定の Azure Storage のみに接続を許可させる
 
 　ここまでの構成で、Azure Storage は自分が設定した仮想ネットワーク(VNET)からのみ着信を許可するよう構成されていますが、仮想ネットワーク側は東南アジアリージョンの全ての Azure Storage へアクセスが可能な状況となっています。情報漏洩の観点から、自分が所有する特定の Azure Storage にのみアクセス制限をするために使用するのが [サービス エンドポイント ポリシー](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoint-policies-overview) となります。 
- 
- 
+    
     <img src="/images/vnet-service-endpoint-policies-overview.png" title="サービスエンドポイントポリシー">
-
+    
 ## サービスエンドポイントポリシーの適用
 
  1. Azure Portal の左上隅にある [+ リソースの作成] を選択します。
