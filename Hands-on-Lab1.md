@@ -213,8 +213,12 @@
 
    <img src="/images/hands-on-lab1-Service-endpoint-policy-001.png" title="Service endpoint policy">
    
- 3. \[基本] に次の情報を入力するか、選択します。
+ 3. **\[基本]** に次の情報を入力するか選択します。 **\[ 次: ポリシー定義 > ]** へ進みます。
  
-    <img src="/images/hands-on-lab1-Service-endpoint-policy-002.png" title="Service endpoint policy">
+    <img src="/images/hands-on-lab1-Service-endpoint-policy-002.png" title="基本">
 
-4. \[リソース] の下にある \[+ 追加] を選択し \[リソースの追加] ウィンドウで次の情報を入力または選択します。
+ 4. **\[リソース]** の下にある **\[+ 追加]** を選択し **\[リソースの追加]** ウィンドウで次の情報を入力または選択し、　**\[追加]** を押します。
+
+    <img src="/images/hands-on-lab1-Service-endpoint-policy-003.png" title="ポリシー定義">
+ 
+ 5. **\[ 確認および作成 > ]** を押して、ポリシーを作成します。 
