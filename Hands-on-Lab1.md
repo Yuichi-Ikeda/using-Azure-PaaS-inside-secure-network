@@ -222,3 +222,7 @@
     <img src="/images/hands-on-lab1-Service-endpoint-policy-003.png" title="ポリシー定義">
  
  5. **\[ 確認および作成 > ]** を押して、ポリシーを作成します。 
+
+    <img src="/images/hands-on-lab1-Service-endpoint-policy-004.png" title="確認および作成">
+    
+    
