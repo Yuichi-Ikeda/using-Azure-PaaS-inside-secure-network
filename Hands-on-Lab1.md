@@ -109,7 +109,7 @@
 2. **\[概要]** を選択して、 **\[サーバー ファイアウォールの設定]** を選択します。
 
    <img src="/images/hands-on-lab1-SQLConfig-002.png" title="サーバー ファイアウォールの設定">
-3. **\[既存の仮想ネットワーク追加]** を選択します。
+3. [Connection Policy](https://docs.microsoft.com/ja-jp/azure/sql-database/sql-database-connectivity-architecture#connection-policy) を  ** Proxy ** に変更します。これでクライアントからの着信を常に 1433 ポートで受け付けるようになります。下にある **\[既存の仮想ネットワーク追加]** を選択します。
 
    <img src="/images/hands-on-lab1-SQLConfig-003.png" title="既存の仮想ネットワーク追加">
    
