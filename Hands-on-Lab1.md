@@ -237,8 +237,7 @@
 
 　以上で、サービスエンドポイントが接続されたサブネットで、該当する Azure Storage にのみアクセスが制限されるようポリシーが適用されました。東南アジアリージョンの他のストレージにアクセスしようとしても以下のようにアクセスが拒否されます。
     
-     <img src="/images/hands-on-lab1-Service-endpoint-policy-006.png" title="エラー確認">
-   
+ <img src="/images/hands-on-lab1-Service-endpoint-policy-006.png" title="エラー確認">
    
 ## 東南アジアリージョンの Azure SQL Database への接続を許可 
 
