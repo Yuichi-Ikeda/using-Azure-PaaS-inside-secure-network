@@ -253,8 +253,45 @@
 
 ## 仮想ネットワーク側から特定の Azure Storage のみに接続を許可させる
 
-　情報漏洩の観点から Azure Storage 同様に、仮想ネットワークからのアクセスを特定の SQL Database のみに制限したいところですが、サービスエンドポイントポリシーは現在 Azure Storage だけが対応している状況です。これを実現するには演習 2 で出てくる [Azure Firewall](https://docs.microsoft.com/ja-jp/azure/firewall/overview) を利用する必要があります。
+　情報漏洩の観点から Azure Storage 同様に、仮想ネットワークからのアクセスを特定の SQL Database のみに制限したいところですが、サービスエンドポイントポリシーは現在 Azure Storage だけが対応している状況です。これを実現するには、演習 2 で出てくる [Azure Firewall](https://docs.microsoft.com/ja-jp/azure/firewall/overview) を利用する必要があります。
  
+# Azure Data Factory のデプロイ
+
+　基本的なリソースのデプロイとサービスエンドポイントの構成が完了したので、ここから ETL サービスである Azure Data Factory をデプロイしていきます。
+
+1. [Azure portal](https://portal.azure.com)  にサインインします。
+2. Azure portal の左上メニューまたはホームページから **\[リソースの作成]** を選択します。
+
+   <img src="/images/hands-on-lab1-ADF-001.png" title="リソースの作成">
+3. **\[分析]** を選択してから、 **\[Data Factory]** を選択します。
+
+   <img src="/images/hands-on-lab1-ADF-002.png" title="Data Factoryの作成">
+4. **\[新しいデータ ファクトリ]** ページで、 **\[名前]** に「**\<yourname>-WorkshopDataFactory**」と入力します。
+
+5. **\[サブスクリプション]** で、データ ファクトリを作成する Azure サブスクリプションを選択します。
+
+6. **\[リソース グループ]** で、**\[新規作成]** を選択し、リソース グループの名前に「**DataFactory-Lab01-rg**」と入力します。
+
+7. **\[場所]** で、データ ファクトリの場所 **(Asia Pacific) 東南アジア** を選択します。
+
+8. **\[Git を有効にする]** のチェックを外します。
+
+9. その他は既定値のまま **作成** を選択します。
+
+ ## Azure Data Factory を構成する
+1. **\[概要]** を選択して、 **\[作成と監視]** を選択します。
+
+   <img src="/images/hands-on-lab1-ADFConfig-001.png" title="作成と監視">
+2. Data Factory のポータルサイトで、左端のペインの **\[鉛筆アイコン]** を選択し、下部にある **\[Connections]** を選択します。右ウィンドウで **\[Integration Runtimes]** を選択し、 **\[+ New]** を選択します。
+
+   <img src="/images/hands-on-lab1-ADFConfig-002.png" title="Integration Runtimes の作成">
+3. 表示されたポップアップウィンドウで **\[Azure, Self-Hosted]** を選択し、 **\[Continue]** を選択します。
+
+4. 続けて **\[Self-Hosted]** を選択し、 **\[Continue]** を選択します。
+
+5. 名前を既定値の **integrationRuntime1** のまま **\[Create]** を選択します。
+
+6. 表示された **Key1** をコピーしておきます。後ほどセルフホステッド統合ランタイムをインストールする際に必要となります。
 
 
 
