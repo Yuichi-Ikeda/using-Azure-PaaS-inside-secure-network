@@ -247,4 +247,23 @@
 
     <img src="/images/hands-on-lab1-SQL-NSG-001.png" title="東南アジアリージョンの SQL Database への接続を許可">
     
-2. aaaa
+2. この状態で仮想ネットワークからは、東南アジアリージョンにデプロイされている全ての SQL Database へアクセスが可能です。他方サービスエンドポイントで接続されている SQL Database 側は、この仮想ネットワークのサブネットからのみ着信を許可するよう F/W が構成されています。
+
+    <img src="/images/hands-on-lab1-SQL-NSG-002.png" title="東南アジアリージョンの SQL Database への接続を許可">
+
+## サービスエンドポイントポリシーの適用
+
+ 1. Azure Portal の左上隅にある [+ リソースの作成] を選択します。
+
+ 2. 検索ウィンドウに「Service endpoint policy」と入力し、 \[Service endpoint policy] 、 \[作成] の順に選択します。
+
+    <img src="/images/hands-on-lab1-Service-endpoint-policy-001.png" title="Service endpoint policy">
+   
+ 3. **\[基本]** に次の情報を入力するか選択します。 **\[ 次: ポリシー定義 > ]** へ進みます。
+ 
+    <img src="/images/hands-on-lab1-Service-endpoint-policy-002.png" title="基本">
+
+ 4. **\[リソース]** の下にある **\[+ リソースを追加する]** を選択し、次の情報を入力または選択し **\[追加]** を押します。
+
+
+
