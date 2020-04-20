@@ -219,7 +219,7 @@
  
     <img src="/images/hands-on-lab1-Service-endpoint-policy-002.png" title="基本">
 
- 4. **\[リソース]** の下にある **\[+ 追加]** を選択し **\[リソースの追加]** ウィンドウで次の情報を入力または選択し、　**\[追加]** を押します。
+ 4. **\[リソース]** の下にある **\[+ リソースを追加する]** を選択し、次の情報を入力または選択し **\[追加]** を押します。
 
     <img src="/images/hands-on-lab1-Service-endpoint-policy-003.png" title="ポリシー定義">
  
