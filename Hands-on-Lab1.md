@@ -155,9 +155,9 @@
    
 2. Azure ポータルで該当するストレージの **\[アクセス キー]** を選択し、アカウント名とキーをコピーします。
 
-   <img src="/images/hands-on-lab1-AzureStorageExplorer-003.png" title="Use a storage account name and key">
-   
    <img src="/images/hands-on-lab1-AzureStorageExplorer-002.png" title="Use a storage account name and key">
+   
+   <img src="/images/hands-on-lab1-AzureStorageExplorer-003.png" title="Use a storage account name and key">
 
 3. 左側のツリービューで、該当するストレージアカウントを展開します。
 
