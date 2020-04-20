@@ -251,19 +251,11 @@
 
     <img src="/images/hands-on-lab1-SQL-NSG-002.png" title="東南アジアリージョンの SQL Database への接続を許可">
 
-## サービスエンドポイントポリシーの適用
+## 仮想ネットワーク側から特定の Azure Storage のみに接続を許可させる
 
- 1. Azure Portal の左上隅にある [+ リソースの作成] を選択します。
-
- 2. 検索ウィンドウに「Service endpoint policy」と入力し、 \[Service endpoint policy] 、 \[作成] の順に選択します。
-
-    <img src="/images/hands-on-lab1-Service-endpoint-policy-001.png" title="Service endpoint policy">
-   
- 3. **\[基本]** に次の情報を入力するか選択します。 **\[ 次: ポリシー定義 > ]** へ進みます。
+　情報漏洩の観点から Azure Storage 同様に、仮想ネットワークからのアクセスを特定の SQL Database のみに制限したいところですが、サービスエンドポイントポリシーは現在 Azure Storage だけが対応している状況です。これを実現するには演習 2 で出てくる [Azure Firewall](https://docs.microsoft.com/ja-jp/azure/firewall/overview) を利用する必要があります。
  
-    <img src="/images/hands-on-lab1-Service-endpoint-policy-002.png" title="基本">
 
- 4. **\[リソース]** の下にある **\[+ リソースを追加する]** を選択し、次の情報を入力または選択し **\[追加]** を押します。
 
 
 
