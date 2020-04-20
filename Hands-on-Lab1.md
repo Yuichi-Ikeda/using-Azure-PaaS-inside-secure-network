@@ -149,15 +149,19 @@
 
 # Azure Storage への接続確認
 
-1. Azure Storage Explorer を起動し、接続ダイアログで **Add an Azure Account** を選択します。
+1. Azure Storage Explorer を起動し、接続ダイアログで **Use a storage account name and key** を選択します。
 
-   <img src="/images/hands-on-lab1-AzureStorageExplorer-001.png" title="Add an Azure Account">
+   <img src="/images/hands-on-lab1-AzureStorageExplorer-001.png" title="Azure Storage への接続確認">
    
-2. Azure にログインするための認証情報を入力し、サブスクリプションを選択します。
+2. Azure ポータルで該当するストレージの **\[アクセス キー]** を選択し、アカウント名とキーをコピーします。
+
+   <img src="/images/hands-on-lab1-AzureStorageExplorer-003.png" title="Use a storage account name and key">
+   
+   <img src="/images/hands-on-lab1-AzureStorageExplorer-002.png" title="Use a storage account name and key">
 
 3. 左側のツリービューで、該当するストレージアカウントを展開します。
 
-   <img src="/images/hands-on-lab1-AzureStorageExplorer-002.png" title="該当するストレージアカウントを展開します">
+   <img src="/images/hands-on-lab1-AzureStorageExplorer-004.png" title="該当するストレージアカウントを展開します">
 
 4. 右クリックメニューの **Create Blob Container** で Blob への書き込みが可能な事を確認します。
 
