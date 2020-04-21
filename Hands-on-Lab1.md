@@ -292,6 +292,18 @@
 
 6. 表示された **Key1** をコピーしておきます。後ほどセルフホステッド統合ランタイムをインストールする際に必要となります。
 
+   
+## 東南アジアリージョンの Azure Data Factory への接続を許可 
+
+　[NSG のサービスタグ](https://docs.microsoft.com/ja-jp/azure/virtual-network/service-tags-overview#available-service-tags)には、DataFactory, DataFactoryManagement といった Data Factory 用のサービスタグが存在しますが、仮想マシンで利用するセルフホステッド統合ランタイムからの通信に際しては Azure Data Factory をデプロイした Azure リージョンへの通信を許可する必要があります。本シナリオでは AzureCloud.SoutheastAsia のサービスタグを利用する事になります。
+
+1. NSG サービスタグを利用して、東南アジアリージョンの Azure Data Factory への接続を許可します。
+
+   <img src="/images/hands-on-lab1-ADF-NSG-001.png" title="東南アジアリージョンの Azure Data Factory への接続を許可">
+   
+2. この状態で仮想ネットワークからは、東南アジアリージョンにデプロイされている全ての Azure Data Factory へアクセスが可能です。
+
+   <img src="/images/hands-on-lab1-ADF-NSG-002.png" title="東南アジアリージョンの Azure Data Factory への接続を許可">
 
 
 
