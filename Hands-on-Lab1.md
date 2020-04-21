@@ -307,3 +307,19 @@
 
 　より厳密に送信ポートを絞るには、[セルフホステッド統合ランタイムが必要とするポートとファイアウォール](https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewalls)が公開されています。こちらは Azure Firewall を利用する必要があり、後半の演習 2 で組み込んでいきます。
 
+ ## Data Factory セルフホステッド統合ランタイムのインストール
+ 
+1. リモートデスクトップで仮想マシンにログインします。
+   <img src="/images/hands-on-lab1-VMConfig-001.png" title="リモートデスクトップ">
+   
+2. 次のドキュメントの手順に従い、Microsoft ダウンロード センターからセルフホステッド IR をインストールして登録します。**言語は全て English (United States)** で実行します。
+   
+   https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#install-and-register-a-self-hosted-ir-from-microsoft-download-center
+   
+3. **Azure Data Factory を構成**した際に控えておいた Key1 を入力して Self-Hosted Runtime の**登録**を完了します。
+
+   <img src="/images/hands-on-lab1-VMConfig-003.png" title="Self-Hosted Runtime の登録">
+
+4. あとは既定値のまま進み **\[Launch Configuration Manager]** で正常に Self-hosted node が cloud serrvice に接続されている事を確認します。
+
+   <img src="/images/hands-on-lab1-VMConfig-004.png" title="Self-Hosted Runtime の稼働確認">
