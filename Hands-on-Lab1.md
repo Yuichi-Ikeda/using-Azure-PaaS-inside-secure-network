@@ -301,9 +301,9 @@
 
    <img src="/images/hands-on-lab1-ADF-NSG-001.png" title="東南アジアリージョンの Azure Data Factory への接続を許可">
    
-2. この状態で仮想ネットワークからは、東南アジアリージョンの Azure データセンター全ての Public IP レンジの 443 ポートへアクセスが可能です。
+2. この状態で仮想ネットワークからは、東南アジアリージョンの Azure データセンター全ての Public IP レンジ 443 ポートへアクセスが可能です。また優先度 3990 で定義した AllowStorageSoutheastAsisa の範囲も包含しているため、この状態では 3990 定義は不要と言えます。
 
    <img src="/images/hands-on-lab1-ADF-NSG-002.png" title="東南アジアリージョンの Azure Data Factory への接続を許可">
 
-　[セルフホステッド統合ランタイムが必要とするポートとファイアウォール](https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewalls)が公開されていますが、こちらを利用してより厳密に送信ポートを絞るには、演習2 で組み込む Azure Firewall を利用する必要があります。
+　より厳密に送信ポートを絞るには、[セルフホステッド統合ランタイムが必要とするポートとファイアウォール](https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewalls)が公開されています。こちらは Azure Firewall を利用する必要があり、演習2 で組み込んでいきます。
 
