@@ -323,3 +323,8 @@
 4. あとは既定値のまま進み **\[Launch Configuration Manager]** で正常に Self-hosted node が cloud serrvice に接続されている事を確認します。
 
    <img src="/images/hands-on-lab1-VMConfig-004.png" title="Self-Hosted Runtime の稼働確認">
+
+5. Data Factory のポータルサイトでも Integration Rumtime が Running となっている事を確認します。
+
+   <img src="/images/ADF-IntegrationRuntimes.png" title="Self-Hosted Runtime の稼働確認">
+   
