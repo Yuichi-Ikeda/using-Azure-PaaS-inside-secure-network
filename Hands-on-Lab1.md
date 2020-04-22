@@ -334,7 +334,7 @@
 
 #### ソース BLOB を作成する
 
-1. メモ帳を起動します。 次のテキストをコピーし、**emp.txt** ファイルとしてディスクに保存します。
+1. 仮想マシンでメモ帳を起動します。 次のテキストをコピーし、**emp.txt** ファイルとしてディスクに保存します。
 
     ```
     John,Doe
@@ -345,7 +345,7 @@
 
 #### シンク SQL テーブルを作成する
 
-1. 次の SQL スクリプトを使用して、**dbo.emp** テーブルを SQL データベースに作成します。
+1. 仮想マシンで SQL Server Management Studio を起動し、Azure SQL Database へ接続します。次の SQL スクリプトを使用して **dbo.emp** テーブルを SQL データベースに作成します。
 
     ```sql
     CREATE TABLE dbo.emp
@@ -365,12 +365,12 @@
 
 1. **[Let's get started]\(始めましょう\)** ページで **[Create pipeline]\(パイプラインの作成\)** を選択します。
 
-   ![パイプラインの作成](./media/doc-common-process/get-started-page.png)
+   ![パイプラインの作成](/images/get-started-page.png)
 1. パイプラインの **[全般]** タブで、パイプラインの**名前**として「**CopyPipeline**」と入力します。
 
 1. **[アクティビティ]** ツール ボックスで **[Move and Transform]\(移動と変換\)** カテゴリを展開し、ツール ボックスからパイプライン デザイナー画面に **[データのコピー]** アクティビティをドラッグ アンド ドロップします。 **[名前]** に「**CopyFromBlobToSql**」と指定します。
 
-    ![コピー アクティビティ](./media/tutorial-copy-data-portal/drag-drop-copy-activity.png)
+    ![コピー アクティビティ](/images/drag-drop-copy-activity.png)
 
 ### ソースの構成
 
@@ -380,7 +380,7 @@
 
 1. **[形式の選択]** ダイアログ ボックスで、データの形式の種類を選択して、 **[続行]** を選択します。
 
-    ![データの形式の種類](./media/doc-common-process/select-data-format.png)
+    ![データの形式の種類](/images/select-data-format.png)
 
 1. **[プロパティの設定]** ダイアログ ボックスで、[名前] に「**SourceBlobDataset**」を入力します。 **[リンクされたサービス]** ボックスの横にある **[+ 新規]** をクリックします。
 
@@ -392,7 +392,7 @@
 
 1. 自動的にパイプライン ページに移動します。 **[ソース]** タブで、 **[SourceBlobDataset]** が選択されていることを確認します。 このページのデータをプレビューするには、 **[データのプレビュー]** を選択します。
 
-    ![ソース データセット](./media/tutorial-copy-data-portal/source-dataset-selected.png)
+    ![ソース データセット](/images/source-dataset-selected.png)
 
 ### シンクの構成
 
@@ -418,22 +418,22 @@
 
     g. **[完了]** を選択して、リンクされたサービスをデプロイします。
 
-    ![新しいリンクされたサービスの保存](./media/tutorial-copy-data-portal/new-azure-sql-linked-service-window.png)
+    ![新しいリンクされたサービスの保存](/images/new-azure-sql-linked-service-window.png)
 
 1. **[プロパティの設定]** ダイアログ ボックスに自動的に移動します。 **[テーブル]** で **[dbo].[emp]** を選択します。 **[完了]** を選択します。
 
 1. パイプラインがあるタブに移動し、 **[Sink Dataset]\(シンク データセット\)** で **OutputSqlDataset** が選択されていることを確認します。
 
-    ![パイプラインのタブ](./media/tutorial-copy-data-portal/pipeline-tab-2.png)       
+    ![パイプラインのタブ](/images/pipeline-tab-2.png)       
 
-必要に応じて「[コピー アクティビティでのスキーマ マッピング](copy-activity-schema-and-type-mapping.md)」に従い、コピー元のスキーマをコピー先の対応するスキーマにマッピングすることができます。
+必要に応じて「[コピー アクティビティでのスキーマ マッピング](https://docs.microsoft.com/ja-jp/azure/data-factory/copy-activity-schema-and-type-mapping)」に従い、コピー元のスキーマをコピー先の対応するスキーマにマッピングすることができます。
 
 ## パイプラインを検証する
 パイプラインを検証するには、ツール バーから **[検証]** を選択します。
 
 パイプラインに関連付けられている JSON コードを確認するには、右上にある **[コード]** をクリックします。
 
-## <a name="debug-and-publish-the-pipeline"></a>パイプラインをデバッグして発行する
+## パイプラインをデバッグして発行する
 Data Factory または独自の Azure Repos Git リポジトリにアーティファクト (リンクされたサービス、データセット、パイプライン) を発行する前に、パイプラインをデバッグできます。
 
 1. パイプラインをデバッグするには、ツール バーで **[デバッグ]** を選択します。 ウィンドウ下部の **[出力]** タブにパイプラインの実行の状態が表示されます。
@@ -449,15 +449,15 @@ Data Factory または独自の Azure Repos Git リポジトリにアーティ�
 
 1. 左側の **[監視]** タブに移動します。 手動トリガーによってトリガーされたパイプラインの実行が表示されます。 **[アクション]** 列のリンクを使用して、アクティビティの詳細を表示したりパイプラインを再実行したりできます。
 
-    ![パイプラインの実行を監視する](./media/tutorial-copy-data-portal/monitor-pipeline.png)
+    ![パイプラインの実行を監視する](/images/monitor-pipeline.png)
 
 1. パイプラインの実行に関連付けられているアクティビティの実行を表示するには、 **[アクション]** 列の **[View Activity Runs]\(アクティビティの実行の表示\)** リンクを選択します。 この例では、アクティビティが 1 つだけなので、一覧に表示されるエントリは 1 つのみです。 コピー操作の詳細を確認するために、 **[アクション]** 列にある **[詳細]** リンク (眼鏡アイコン) を選択します。 再度パイプラインの実行ビューに移動するには、一番上にある **[Pipeline Runs]\(パイプラインの実行\)** を選択します。 表示を更新するには、 **[最新の情報に更新]** を選択します。
 
-    ![アクティビティの実行を監視する](./media/tutorial-copy-data-portal/view-activity-runs.png)
+    ![アクティビティの実行を監視する](/images/view-activity-runs.png)
 
 1. SQL データベースの **emp** テーブルに 2 つの行が追加されていることを確認します。
 
-## <a name="trigger-the-pipeline-on-a-schedule"></a>スケジュールに基づいてパイプラインをトリガーする
+## スケジュールに基づいてパイプラインをトリガーする
 このスケジュールでは、パイプラインのスケジュール トリガーを作成します。 このトリガーは、指定されたスケジュール (1 時間に 1 回、毎日など) に基づいてパイプラインを実行します。 ここでは、指定された終了日時まで毎分実行されるようトリガーを設定します。
 
 1. [監視] タブの上にある左側の **[作成者]** タブに移動します。
@@ -484,7 +484,7 @@ Data Factory または独自の Azure Repos Git リポジトリにアーティ�
 
     h. **[次へ]** を選択します。
 
-    ![[アクティブ化] ボタン](./media/tutorial-copy-data-portal/trigger-activiated-next.png)
+    ![[アクティブ化] ボタン](/images/trigger-activiated-next.png)
 
     > [!IMPORTANT]
     > パイプラインの実行ごとにコストが関連付けられるため、終了日は適切に設定してください。
@@ -494,7 +494,7 @@ Data Factory または独自の Azure Repos Git リポジトリにアーティ�
 
 1. 左側の **[モニター]** タブに移動して、トリガーされたパイプラインの実行を確認します。
 
-    ![トリガーされたパイプラインの実行](./media/tutorial-copy-data-portal/triggered-pipeline-runs.png)   
+    ![トリガーされたパイプラインの実行](/images/triggered-pipeline-runs.png)   
 
 1. **パイプラインの実行**ビューから**トリガーの実行**ビューに切り替えるには、ウィンドウ上部の **[Trigger Runs]\(トリガーの実行\)** を選択します。
 
