@@ -337,8 +337,8 @@
 1. 仮想マシンでメモ帳を起動します。 次のテキストをコピーし、**emp.txt** ファイルとしてディスクに保存します。
 
     ```
-    John,Doe
-    Jane,Doe
+    Tarou,Yamada
+    Hanako,Tanaka
     ```
 
 1. Blob Storage に **adftutorial** という名前のコンテナーを作成します。 このコンテナーに **input** という名前のフォルダーを作成します。 次に、**input** フォルダーに **emp.txt** ファイルをアップロードします。 Azure Portal を使用するか、または [Azure Storage Explorer](https://storageexplorer.com/) を使用して、これらのタスクを実行します。
