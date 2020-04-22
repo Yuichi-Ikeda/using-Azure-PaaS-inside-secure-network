@@ -328,3 +328,6 @@
 
    <img src="/images/ADF-IntegrationRuntimes.png" title="Self-Hosted Runtime の稼働確認">
    
+# Data Factory によるデータのコピー
+
+　ここまでのステップで演習 1 でのインフラ環境が整いました。最後に Data Factory により 
