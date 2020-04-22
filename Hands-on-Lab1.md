@@ -330,4 +330,32 @@
    
 # Data Factory によるデータのコピー
 
-　ここまでのステップで演習 1 でのインフラ環境が整いました。最後に Data Factory により 
+　ここまでのステップで演習 1 でのインフラ環境が整いました。最後に Data Factory のパイプラインを作成して Azure Blob Storage から SQL データベースにデータをコピーします。
+
+#### <a name="create-a-source-blob"></a>ソース BLOB を作成する
+
+1. メモ帳を起動します。 次のテキストをコピーし、**emp.txt** ファイルとしてディスクに保存します。
+
+    ```
+    John,Doe
+    Jane,Doe
+    ```
+
+1. Blob Storage に **adftutorial** という名前のコンテナーを作成します。 このコンテナーに **input** という名前のフォルダーを作成します。 次に、**input** フォルダーに **emp.txt** ファイルをアップロードします。 Azure Portal を使用するか、または [Azure Storage Explorer](https://storageexplorer.com/) などのツールを使用して、これらのタスクを実行します。
+
+#### <a name="create-a-sink-sql-table"></a>シンク SQL テーブルを作成する
+
+1. 次の SQL スクリプトを使用して、**dbo.emp** テーブルを SQL データベースに作成します。
+
+    ```sql
+    CREATE TABLE dbo.emp
+    (
+        ID int IDENTITY(1,1) NOT NULL,
+        FirstName varchar(50),
+        LastName varchar(50)
+    )
+    GO
+
+    CREATE CLUSTERED INDEX IX_emp_ID ON dbo.emp (ID);
+    ```
+
