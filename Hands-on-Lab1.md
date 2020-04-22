@@ -341,7 +341,11 @@
     Hanako,Tanaka
     ```
 
-1. Blob Storage に **adftutorial** という名前のコンテナーを作成します。 このコンテナーに **input** という名前のフォルダーを作成します。 次に、**input** フォルダーに **emp.txt** ファイルをアップロードします。 Azure Portal を使用するか、または [Azure Storage Explorer](https://storageexplorer.com/) を使用して、これらのタスクを実行します。
+1. [Azure Storage Explorer](https://storageexplorer.com/) を使用して、Blob Storage に **adftutorial** という名前のコンテナーを作成します。 このコンテナーに **input** という名前のフォルダーを作成します。 
+
+    ![フォルダ作成](/images/azure-storage-create-new-folder.png)
+
+1. **input** フォルダーに **emp.txt** ファイルをアップロードします。 
 
 #### シンク SQL テーブルを作成する
 
