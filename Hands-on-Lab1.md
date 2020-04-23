@@ -400,7 +400,7 @@
 
     ![新しいリンクされたサービス](/images/adf-pipeline-new-linked-service-storage.png)
     
-1. リンクされたサービスが作成されると、 **[プロパティの設定]** ページに戻ります。 **[ファイル パス]** の横にある **[Browse]** からファイルパスを選択していきます。 **[First ro as header]** にチェックを入れます。
+1. リンクされたサービスが作成されると、 **[プロパティの設定]** ページに戻ります。 **[ファイル パス]** の横にある **[Browse]** からファイルパスを選択していきます。 **[First row as header]** にチェックを入れます。
 
     ![ファイル パスの設定](/images/adf-pipeline-set-file-path.png)
     
