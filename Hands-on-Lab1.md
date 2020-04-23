@@ -396,12 +396,14 @@
 
 1. **[プロパティの設定]** ダイアログ ボックスで、[名前] に「**SourceBlobDataset**」を入力します。 **[リンクされたサービス]** ボックスの横にある **[+ 新規]** をクリックします。
 
-1. **[New Linked Service (Azure Blob Storage)]\(新しいリンクされたサービス (Azure Blob Storage)\)** ダイアログ ボックスで、名前として「**AzureStorageLinkedService**」と入力し、 **[ストレージ アカウント名]** の一覧から該当のストレージ アカウントを選択します。 接続をテストし、 **[完了]** を選択して、リンクされたサービスをデプロイします。
+1. **[New Linked Service (Azure Blob Storage)]\(新しいリンクされたサービス (Azure Blob Storage)\)** ダイアログ ボックスで、名前として「**AzureStorageLinkedService**」と入力し、 **[自身で用意した Integration Runtime]** を選択します。 **[ストレージ アカウント名]** の一覧から該当のストレージ アカウントを選択します。 **[Test Connection]** で接続をテストし、 **[Create]** を選択します。
 
-1. リンクされたサービスが作成されると、 **[プロパティの設定]** ページに戻ります。 **[ファイル パス]** の横にある **[参照]** を選択します。
+    ![新しいリンクされたサービス](/images/adf-pipeline-new-linked-service.png)
+    
+1. リンクされたサービスが作成されると、 **[プロパティの設定]** ページに戻ります。 **[ファイル パス]** の横にある **[Browse]** をプルダウンし、 **[From specified path]** からファイルを選択します。
 
-1. **adftutorial/input** フォルダーに移動し、**emp.txt** ファイルを選択して、 **[完了]** を選択します。
-
+    ![ファイル パスの設定](/images/adf-pipeline-set-file-path.png)
+    
 1. 自動的にパイプライン ページに移動します。 **[ソース]** タブで、 **[SourceBlobDataset]** が選択されていることを確認します。 このページのデータをプレビューするには、 **[データのプレビュー]** を選択します。
 
     ![ソース データセット](/images/source-dataset-selected.png)
