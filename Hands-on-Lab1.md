@@ -378,9 +378,9 @@
 1. Data Factory ポータルの **[Let's get started]\(始めましょう\)** ページで **[Create pipeline]\(パイプラインの作成\)** を選択します。
 
    ![パイプラインの作成](/images/get-started-page.png)
-1. パイプラインの **[全般]** タブで、パイプラインの**名前**として「**CopyPipeline**」と入力します。
+1. パイプラインの **[General]\(全般\)** タブで、パイプラインの **[Name]\(名前\)** として「**CopyPipeline**」と入力します。
 
-1. **[アクティビティ]** ツール ボックスで **[Move and Transform]\(移動と変換\)** カテゴリを展開し、ツール ボックスからパイプライン デザイナー画面に **[データのコピー]** アクティビティをドラッグ アンド ドロップします。 **[名前]** に「**CopyFromBlobToSql**」と指定します。
+1. **[Activities]\(アクティビティ\)** ツール ボックスで **[Move and Transform]\(移動と変換\)** カテゴリを展開し、ツール ボックスからパイプライン デザイナー画面に **[Copy data]\(データのコピー\)** アクティビティをドラッグ アンド ドロップします。 **[Name]\(名前\)** に「**CopyFromBlobToSql**」と指定します。
 
     ![コピー アクティビティ](/images/drag-drop-copy-activity.png)
 
