@@ -398,7 +398,7 @@
 
 1. **[New Linked Service (Azure Blob Storage)]\(新しいリンクされたサービス (Azure Blob Storage)\)** ダイアログ ボックスで、名前として「**AzureStorageLinkedService**」と入力し、 **[自身で用意した Integration Runtime]** を選択します。 **[ストレージ アカウント名]** の一覧から該当のストレージ アカウントを選択します。 **[Test Connection]** で接続をテストし、 **[Create]** を選択します。
 
-    ![新しいリンクされたサービス](/images/adf-pipeline-new-linked-service.png)
+    ![新しいリンクされたサービス](/images/adf-pipeline-new-linked-service-storage.png)
     
 1. リンクされたサービスが作成されると、 **[プロパティの設定]** ページに戻ります。 **[ファイル パス]** の横にある **[Browse]** をプルダウンし、 **[From specified path]** からファイルを選択します。
 
@@ -420,6 +420,8 @@
 
     a. **[名前]** に「**AzureSqlDatabaseLinkedService**」と入力します。
 
+    a. **[統合ランタイム]** で、「**integrationRuntime1**」を選択します。
+
     b. **[サーバー名]** で、使用する SQL Server インスタンスを選択します。
 
     c. **[データベース名]** で、使用する SQL データベースを選択します。
@@ -432,7 +434,7 @@
 
     g. **[完了]** を選択して、リンクされたサービスをデプロイします。
 
-    ![新しいリンクされたサービスの保存](/images/new-azure-sql-linked-service-window.png)
+    ![新しいリンクされたサービスの保存](/images/adf-pipeline-new-linked-service-sql.png)
 
 1. **[プロパティの設定]** ダイアログ ボックスに自動的に移動します。 **[テーブル]** で **[dbo].[emp]** を選択します。 **[完了]** を選択します。
 
