@@ -367,10 +367,14 @@
 
     ![テーブルを SQL データベースに作成](/images/azure-sql-database-create-table.png)
     
-## パイプラインを作成する
+## Data Factory パイプラインを作成する
 
 　Data Factory ポータルでパイプラインを作成し、その後パイプラインの構成に必要なリンクされたサービスとデータセットを作成していきます。
 
+1. **\[概要]** を選択して、 **\[作成と監視]** を選択します。
+
+    ![作成と監視](/images/hands-on-lab1-ADFConfig-001.png)
+   
 1. Data Factory ポータルの **[Let's get started]\(始めましょう\)** ページで **[Create pipeline]\(パイプラインの作成\)** を選択します。
 
    ![パイプラインの作成](/images/get-started-page.png)
