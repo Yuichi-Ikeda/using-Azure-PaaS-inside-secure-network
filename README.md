@@ -29,8 +29,8 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
 - 仮想ネットワーク内のプライベートエンドポイント (Private IP) と自身がデプロイした Azure PaaS インスタンスとの完全な 1 : 1 接続となります。
   
   
- ## 演習 
- 　[Data Factory セルフホステッド統合ランタイムとサービスエンドポイント](/Hands-on-Lab1.md)
+ ## 演習１
+ 　### [Data Factory セルフホステッド統合ランタイムとサービスエンドポイント](/Hands-on-Lab1.md)
  
  ## 演習２
- 　[Azure Firewall によるセキュリティ強化](/Hands-on-Lab2.md)
+ 　### [Azure Firewall によるセキュリティ強化](/Hands-on-Lab2.md)
