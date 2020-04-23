@@ -31,8 +31,8 @@ Hands-on：Moving data between SQL Database and Azure Storage by using Data Fact
   
  ## 演習１
  
- 　### [Data Factory セルフホステッド統合ランタイムとサービスエンドポイント](/Hands-on-Lab1.md)
+ 　[Data Factory セルフホステッド統合ランタイムとサービスエンドポイント](/Hands-on-Lab1.md)
  
  ## 演習２
  
- 　### [Azure Firewall によるセキュリティ強化](/Hands-on-Lab2.md)
+ 　[Azure Firewall によるセキュリティ強化](/Hands-on-Lab2.md)
