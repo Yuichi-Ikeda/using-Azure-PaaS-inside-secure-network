@@ -347,6 +347,8 @@
 
 1. **input** フォルダーに **emp.txt** ファイルをアップロードします。 
 
+    ![ファイルをアップロード](/images/azure-storage-upload-file.png)
+    
 #### シンク SQL テーブルを作成する
 
 1. 仮想マシンで SQL Server Management Studio を起動し、Azure SQL Database へ接続します。次の SQL スクリプトを使用して **dbo.emp** テーブルを SQL データベースに作成します。
