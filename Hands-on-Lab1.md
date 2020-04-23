@@ -365,6 +365,8 @@
     CREATE CLUSTERED INDEX IX_emp_ID ON dbo.emp (ID);
     ```
 
+    ![テーブルを SQL データベースに作成](/images/azure-sql-database-create-table.png)
+    
 ## パイプラインを作成する
 
 　Data Factory ポータルでパイプラインを作成し、その後パイプラインの構成に必要なリンクされたサービスとデータセットを作成していきます。
