@@ -91,5 +91,11 @@
 ## NSG ルールの削除
 
 1. **[ADFRuntime-nsg]** の **[概要]** を選択します。
-1. 赤枠のルールを全て削除します。インターネットへの **Outgoing** は Azure Firewall によりブロックされています。
+1. 赤枠のルールを全て削除します。
+
      ![NSG ルールの削除](/images/Delete-NSG-Rule.png)
+
+　※ インターネットへの **Outgoing** は Azure Firewall によりブロックされています。
+ 
+## サービスエンドポイントの再設定
+ 
