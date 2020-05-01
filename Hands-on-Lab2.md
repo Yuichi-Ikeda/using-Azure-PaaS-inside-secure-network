@@ -94,7 +94,7 @@
 1. 赤枠のルールを全て削除します。
 
      ![NSG ルールの削除](/images/Delete-NSG-Rule.png)
-　　※ インターネットへの **Outgoing** は Azure Firewall によりブロックされています。
+　※ インターネットへの **Outgoing** は Azure Firewall によりブロックされています。
  
 ## サービスエンドポイントの再設定
  
