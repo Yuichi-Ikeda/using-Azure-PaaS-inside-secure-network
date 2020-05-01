@@ -81,7 +81,7 @@
  
      ![IP 構成](/images/Remove-PublicIP-From-NIC-001.png)
  1. **[パブリック IP アドレス]** の **「関連付け解除」** を選択します。 **[プライベート IP アドレス]** の割り当ても **「静的」** とします。
-     ![関連付け解](/images/Remove-PublicIP-From-NIC-002.png)
+     ![関連付け解除](/images/Remove-PublicIP-From-NIC-002.png)
  1. **[保存]** を選択して構成を保存します。
  1. 次にパブリック IP アドレス **[ADFRuntime-ip]** の **[概要]** を選択し、**[削除]** を選択します。
  
@@ -89,3 +89,6 @@
       
 ## NSG ルールの削除
 
+1. **[ADFRuntime-nsg]** の **[概要]** を選択します。
+1. 赤枠のルールを全て削除します。インターネットへの **Outgoing** は Azure Firewall によりブロックされています。
+     ![NSG ルールの削除](/images/Delete-NSG-Rule.png)
