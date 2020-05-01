@@ -71,10 +71,11 @@
 
     ![リモートデスクトップ接続](/images/RemoteDesktop.png)
 
-## 不要なリソースの削除
+# 不要なリソースの削除
 
-　ここではインターネットに直接接続されなくなった事で不要となった ADFRuntime 仮想マシンの Public IP アドレスや NSG ルールを削除していきます。
- 
+　ここではインターネットに直接接続されなくなり不要となった ADFRuntime 仮想マシンの Public IP アドレスや NSG ルールを削除していきます。
+
+## 仮想マシンのパブリック IP アドレスの削除
  1. Azure ポータルより ADFRuntime 仮想マシンの ネットワークインターフェースを選択します。
  1. **[IP 構成]** にて赤枠部分をクリックします。
  
@@ -83,4 +84,8 @@
      ![関連付け解](/images/Remove-PublicIP-From-NIC-002.png)
  1. **[保存]** を選択して構成を保存します。
  1. 次にパブリック IP アドレス **[ADFRuntime-ip]** の **[概要]** を選択し、**[削除]** を選択します。
+ 
       ![Public IP アドレス削除](/images/Delete-ADFRuntime-Public-IP.png)
+      
+## NSG ルールの削除
+
