@@ -153,3 +153,8 @@
    https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewalls
 
 # 接続の確認
+　演習１で実施したように、以下の手順で仮想マシンから Azure PaaS への接続を確認します。
+ 
+1. Azure Storage Explorer によるストレージへの接続確認
+1. SQL Server Management Studio (SSMS) による SQL Database への接続確認
+1. Data Factory パイプラインの実行
