@@ -140,3 +140,4 @@
    ![サービスエンドポイントの確認](/images/reconfirme-service-endpoint.png)
    
 # Azure Fiewall のルール設定
+　ここまでの構成では、Azure Firewall のルールに RDP 用の NAT ルールだけが適用されています。ルールを追加しない限り、Azure Firewall は全ての通信を遮断します。
