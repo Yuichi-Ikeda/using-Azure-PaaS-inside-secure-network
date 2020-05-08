@@ -135,7 +135,7 @@
    ![設定](/images/replace-sql-service-endpoint-003.png)
 
 ## サービスエンドポイントの確認
-　最後に **[DataFactoryVNet]** の **[サービスエンドポイント]** を選択し、以下のように AzureFirewallSubnet に対して成功している事を確認します。
+　最後に **[DataFactoryVNet]** の **[サービスエンドポイント]** を選択し、以下のように AzureFirewallSubnet に対して**成功**している事を確認します。
 
    ![サービスエンドポイントの確認](/images/reconfirme-service-endpoint.png)
    
