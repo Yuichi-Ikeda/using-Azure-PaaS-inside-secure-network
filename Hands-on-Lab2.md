@@ -95,11 +95,10 @@
 
      ![NSG ルールの削除](/images/Delete-NSG-Rule.png)
 　※ インターネットへの **Outgoing** は Azure Firewall によりブロックされています。
- 
 
 # サービスエンドポイのントの再設定
 
-　ここでは既存のサービスエンドポイントを削除してから、AzureFirewallSubnet に対してサービスエンドポイントを再設定します。
+　ここでは既存のサービスエンドポイントを削除してから、AzureFirewallSubnet に対してサービスエンドポイントを再設定していきます。
 
 ## サービスエンドポイントの削除
 
@@ -124,7 +123,6 @@
 
    ![保存](/images/replace-storage-service-endpoint-003.png)
 
-
 ## SQL Database サービスエンドポイのントの再設定
 1. **[demodbadf]** の **[サーバー ファイアウォールの設定]** をクリックします。
 
@@ -135,3 +133,5 @@
 1. 有効化が完了したら、続けて **[OK]** を選択します。
 
    ![設定](/images/replace-sql-service-endpoint-003.png)
+
+# Azure Fiewall のルール設定
