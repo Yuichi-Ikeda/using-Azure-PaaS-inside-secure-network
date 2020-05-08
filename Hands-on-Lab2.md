@@ -145,7 +145,7 @@
 1. **[Firewall]** の **[ルール]** で **[アプリケーション ルール コレクション]** を選択し、 **[アプリケーション ルール コレクションの追加]** をクリックします。
 
    ![アプリケーション ルール コレクションの追加](/images/azure-firewall-application-rule-001.png)
-1. **[AllowOutgoingFQDN]** という名前で、以下のように4つの FQDN ターゲットを **[追加]** します。
+1. **[AllowOutgoingFQDN]** という名前で、以下のように5つの FQDN ターゲットを **[追加]** します。
 
    ![FQDN ターゲットの追加](/images/azure-firewall-application-rule-002.png)
 
