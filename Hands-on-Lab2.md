@@ -140,4 +140,11 @@
    ![サービスエンドポイントの確認](/images/reconfirme-service-endpoint.png)
    
 # Azure Fiewall のルール設定
-　ここまでの構成では、Azure Firewall のルールに RDP 用の NAT ルールだけが適用されています。ルールを追加しない限り、Azure Firewall は全ての通信を遮断しているので、ここでは仮想ネットワーク側から Azure Storage, SQL Database, Data Factory サービスへアクセスするためのルールを追加していきます。
+　Azure Firewall は許可ルールを追加しない限りは、既定で全ての通信を遮断しています。ここまでの構成では、仮想マシンへのリモートデスクトップ接続のために RDP 用の NAT ルールだけが適用されています。ここでは仮想ネットワーク側から Azure Storage, SQL Database, Data Factory サービスへアクセスするためのアプリケーション ルール (FQDN) を追加していきます。
+ 
+1. **[Firewall]** の **[ルール]** で **[アプリケーション ルール コレクション]** を選択し、 **[アプリケーション ルール コレクションの追加]** をクリックします。
+
+   ![アプリケーション ルール コレクションの追加](/images/azure-firewall-application-rule-001.png)
+1. **[AllowOutgoingFQDN]** という名前で、以下のように4つの FQDN ターゲットを **[追加]** します。
+
+   ![FQDN ターゲットの追加](/images/azure-firewall-application-rule-002.png)
