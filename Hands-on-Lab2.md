@@ -125,7 +125,7 @@
 1. **[demodbadf]** の **[サーバー ファイアウォールの設定]** をクリックします。
 
    ![サーバー ファイアウォールの設定](/images/replace-sql-service-endpoint-001.png)
-1. **[ファイアウォール設定]** で既存の関連付けをクリックし **[AzureFirewallSubnet]** を **[有効化]** をします。
+1. **[ファイアウォール設定]** で既存の関連付けをクリックし **[AzureFirewallSubnet]** を **[有効]** にします。
 
    ![サブネットの関連付け](/images/replace-sql-service-endpoint-002.png)
 1. 有効化が完了したら、続けて **[OK]** を選択します。
