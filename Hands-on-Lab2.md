@@ -96,9 +96,13 @@
      ![NSG ルールの削除](/images/Delete-NSG-Rule.png)
 　※ インターネットへの **Outgoing** は Azure Firewall によりブロックされています。
  
+
+# サービスエンドポイのントの再設定
+
+　ここでは既存のサービスエンドポイントを削除してから、AzureFirewallSubnet に対してサービスエンドポイントを再設定します。
+
 ## サービスエンドポイントの削除
 
-　サービスエンドポイントを AzureFirewallSubnet に再設定するために、既存のサービスエンドポイントを削除します。
 1. 最初に **[サービスエンドポイント ポリシー]** で **[サブネットの関連付けを解除]** （チェックを外）します。
 
    ![サブネットの関連付けを解除](/images/remove-service-endpoint-policy-001.png)
@@ -108,8 +112,6 @@
 1. 最後に **[DataFactoryVNet]** の **[サービスエンドポイント]** を選択し、２つある既存のサービスエンドポイント Microsoft.Storage, Microsoft.Sql の両方を削除します。
 
    ![サービスエンドポイントの削除](/images/remove-service-endpoint.png)
-
-# サービスエンドポイのントの再設定
 
 ## Storage サービスエンドポイのントの再設定
 1. **[demostorageadf]** の **[ファイアウォールと仮想ネットワーク]** で既存のサブネットを削除します。
