@@ -98,7 +98,7 @@
  
 ## サービスエンドポイントの再設定
 
-1. **[DataFactoryVNet]** の **[サービスエンドポイント]** を選択し、既存のサービスエンドポイント Storage, SQL Databae 両方を削除します。
+1. **[DataFactoryVNet]** の **[サービスエンドポイント]** を選択し、２つある既存のサービスエンドポイント Microsoft.Storage, Microsoft.Sql の両方を削除します。
 
    ![サービスエンドポイントの削除](/images/remove-service-endpoint.png)
 2. それぞれで AzureFirewallSubnet に対してサービスエンドポイントを再設定をします。
