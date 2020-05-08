@@ -153,8 +153,14 @@
    https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewalls
 
 # 接続の確認
-　演習１で実施したように、以下の手順で仮想マシンから Azure PaaS への接続を確認します。
+　演習１で実施したように、リモートデスクトップで仮想マシンにログインし Azure PaaS への接続を確認します。
  
 1. Azure Storage Explorer によるストレージへの接続確認
 1. SQL Server Management Studio (SSMS) による SQL Database への接続確認
-1. Data Factory パイプラインの実行
+
+# Data Factory パイプラインの実行
+　同じく演習１で実施したように Data Factory パイプラインのデバッグ実行やトリガーによる実行を確認します。
+
+# まとめ
+　演習２では、全ての通信を Azure Firewall 経由で行うように構成する事で、仮想ネットワークからの [Outgoing](送信方向) 通信を制限し情報漏洩のセキュリティ強化をしています。セルフホステッド統合ランタイムのファイアウォール構成で *.servicebus.windows.net* のような
+ 
