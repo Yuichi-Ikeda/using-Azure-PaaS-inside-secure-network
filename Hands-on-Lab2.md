@@ -115,19 +115,19 @@
    ![既存のサブネットを削除](/images/replace-storage-service-endpoint-001.png)
 1. **[既存の仮想ネットワークを追加]** で **[AzureFirewallSubnet]** を **[有効化]** をします。
 
-   ![サブネットの関連付けを解除](/images/replace-storage-service-endpoint-002.png)
+   ![有効化](/images/replace-storage-service-endpoint-002.png)
 1. 有効化が完了したら、続けて **[追加]** を選択し、最後に **[保存]** をします。
 
-   ![サブネットの関連付けを解除](/images/replace-storage-service-endpoint-003.png)
+   ![保存](/images/replace-storage-service-endpoint-003.png)
 
 
 ## SQL Database サービスエンドポイのントの再設定
-1. **[demostorageadf]** の **[ファイアウォールと仮想ネットワーク]** で既存のサブネットを削除します。
+1. **[demodbadf]** の **[サーバー ファイアウォールの設定]** をクリックします。
 
-   ![既存のサブネットを削除](/images/replace-storage-service-endpoint-001.png)
-1. **[既存の仮想ネットワークを追加]** で **[AzureFirewallSubnet]** を **[有効化]** をします。
+   ![サーバー ファイアウォールの設定](/images/replace-sql-service-endpoint-001.png)
+1. **[ファイアウォール設定]** で既存の関連付けをクリックし **[AzureFirewallSubnet]** を **[有効化]** をします。
 
-   ![サブネットの関連付けを解除](/images/replace-storage-service-endpoint-002.png)
-1. 有効化が完了したら、続けて **[追加]** を選択し、最後に **[保存]** をします。
+   ![サブネットの関連付け](/images/replace-sql-service-endpoint-002.png)
+1. 有効化が完了したら、続けて **[OK]** を選択します。
 
-   ![サブネットの関連付けを解除](/images/replace-storage-service-endpoint-003.png)
+   ![設定](/images/replace-sql-service-endpoint-003.png)
