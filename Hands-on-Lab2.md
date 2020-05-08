@@ -97,8 +97,7 @@
 　※ インターネットへの **Outgoing** は Azure Firewall によりブロックされています。
  
 ## サービスエンドポイントの再設定
- 既存のサービスエンドポイント Storage, SQL Databae 両方を削除します。
- 
-     ![サービスエンドポイントの削除](/images/remove-service-endpoint.png)
- 
- それぞれで AzureFirewallSubnet に対してサービスエンドポイントを再設定をします。
+　既存のサービスエンドポイント Storage, SQL Databae 両方を削除します。
+
+   ![サービスエンドポイントの削除](/images/remove-service-endpoint.png)
+それぞれで AzureFirewallSubnet に対してサービスエンドポイントを再設定をします。
