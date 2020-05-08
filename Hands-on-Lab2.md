@@ -149,7 +149,7 @@
 
    ![FQDN ターゲットの追加](/images/azure-firewall-application-rule-002.png)
 
-   参考資料：セルフホステッド統合ランタイムのファイアウォール構成   
+   **参考資料：セルフホステッド統合ランタイムのファイアウォール構成**   
    https://docs.microsoft.com/ja-jp/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewalls
 
 # 接続の確認
