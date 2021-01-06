@@ -1,5 +1,5 @@
 # Azure PaaS をセキュアな閉域ネットワークで利用する
-Hands-on：Moving data between SQL Database and Azure Storage by using Data Factory inside secure network.
+Hands-on：Moving data between SQL Database and Azure Storage by Data Factory inside secure network.
 
 ## はじめに
 　多くのエンタープライズ企業の求める要件に、クラウドであってもセキュアな閉域ネットワークに自社のサービスを展開したいという要望があります。仮想マシンに代表される Azure IaaS であれば、[仮想ネットワーク](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-networks-overview)にデプロイする事で要件をクリアする事は簡単ですが、Global IP でサービス提供されている Azure PaaS では構成に工夫が必要となってきます。
