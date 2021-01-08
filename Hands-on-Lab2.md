@@ -6,7 +6,7 @@
 　Azure Firewall はサイズが /26 以上の AzureFirewallSubnet という決まった名前のサブネットにデプロイする必要があります。
 1. [Azure portal](https://portal.azure.com)  にサインインします。
 1. 演習１でデプロイした **DataFactoryVNet** を選択します。
-1. **[サブネットの追加]** で、以下の値を入力します。 **[名前]** は「**AzureFirewallSubnet**」である必要があります。
+1. **[サブネットの追加]** で、以下の値を入力します。 **[名前]** は「**AzureFirewallSubnet**」にする必要があります。
 
     ![サブネットの追加](/images/add-azurefirewallsubnet.png)
 1. **[OK]** を選択して、完了します。
